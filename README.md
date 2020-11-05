@@ -5,9 +5,11 @@ SEO recommandations for devs
 - [Balises html importantes](#tags)
   - [La balise title](#titleTag)
   - [La balise meta description](#descriptionTag)
+  - [La balise de titre H1](#h1Tag)  
   - [La balise meta robots](#robotsTag)
 - [Structure et navigation](#structure)
-  - [Structure HTML](#html)
+  - [HTML sémantique](#html)
+  - [Hiérarchie des titres](#headings)  
   - [Structure des URLs](#url)  
 
 ## <a name="tags">Balises html importantes</a>
@@ -69,10 +71,10 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
  Il existe d'autres directives possibles dans cette balise : [Meta robots, maitrisez votre indexation avec cette balise (seo.fr)](https://www.seo.fr/definition/meta-robots)
 
 ## <a name="structure">Structure et navigation</a>
-### <a name="html">Structure HTML globale</a>
+### <a name="html">Structure HTML sémantique</a>
 Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
 1. utiliser les balises essentielles au SEO mentionnées ici
-2. remplacer les ```<div>``` par les éléments sémantiques lorsque cela est possible : `<header>, <nav>, <main>, <aside>, <article>, <footer>`
+2. remplacer les ```<div>``` par les éléments sémantiques lorsque cela est possible : `<header>, <nav>, <section>, <main>, <aside>, <article>, <footer>`
 ### <a name="url">Structure des URLs</a>
 Les URLs sont une version humainement lisible des adresses IP des serveurs où sont hébergées les pages. Les moteurs de recherche les utilisent pour déterminer la pertinence d'une page par rapport à une requête de recherche. Elles sont donc importantes pour le référencement.
 
@@ -89,3 +91,26 @@ URL non optimisée :
 URL optimisée :
 
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
+
+### <a name="headings">Hiérarchie des titres</a>
+Les titres et sous-titres des contenus doivent être structurés avec les balises sémantiques appropriées. Il s'agit des balises `<h1>, <h2>, <h3>, <h4>, <h5>, <h6>`. Elles sont importantes pour le SEO et l'utilisabilité du site. Voici quelques points à retenir
+- Chaque page doit posséder **obligatoirement un et un seul** `<h1></h1>`
+- Le contenu de la balise `<h1>` doit être pertinent par rapport à la page et utiliser des **mots-clés cohérents**
+- Les balises de titres sont utilisées pour **structurer le contenu central** d'une page. On ne doit pas les retrouver dans les parties annexes (pas de `<hn></hn>` dans le header, menu principal, sidebar, footer etc.)
+- Les balises de titre n'ont **pas pour rôle de styliser le contenu**, c'est le rôle d'un CSS bien conçu. (ne pas utiliser une balise titre pour obtenir un certain style)
+
+Une structure de titres correcte :
+```xml
+<h1>Titre principal</h1>
+  
+  <h2>Titre de la section 1</h2>
+   
+    <h3>Sous-titre 1.1</h3>
+   
+    <h3>Sous-titre 1.2</h3>
+  
+  <h2>Titre de la section 2</h2>
+    
+    <h3>Sous-titre 2.1</h3>
+    
+    <h3>Sous-titre 2.2</h3>
