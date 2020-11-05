@@ -6,7 +6,9 @@ SEO recommandations for devs
   - [La balise title](#titleTag)
   - [La balise meta description](#descriptionTag)
   - [La balise meta robots](#robotsTag)
-- performances
+- [Structure et navigation](#structure)
+  - [Structure HTML](#html)
+  - [Structure des URLs](#url)  
 
 ## <a name="tags">Balises html importantes</a>
 ### <a name="titleTag">La balise ```<title>```
@@ -66,4 +68,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   
  Il existe d'autres directives possibles dans cette balise : [Meta robots, maitrisez votre indexation avec cette balise (seo.fr)](https://www.seo.fr/definition/meta-robots)
 
-## performances
+## <a name="structure">Structure et navigation</a>
+### <a name="html">Structure HTML</a>
+### <a name="url">Structure des URLs</a>
+Les URLs sont une version humainement lisible des adresses IP des serveurs où sont hébergées les pages. Les moteurs de recherche les utilisent pour déterminer la pertinence d'une page par rapport à une requête de recherche. Elles sont donc importantes pour le référencement.
