@@ -72,3 +72,15 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
 ### <a name="html">Structure HTML</a>
 ### <a name="url">Structure des URLs</a>
 Les URLs sont une version humainement lisible des adresses IP des serveurs où sont hébergées les pages. Les moteurs de recherche les utilisent pour déterminer la pertinence d'une page par rapport à une requête de recherche. Elles sont donc importantes pour le référencement.
+
+1. utiliser des URLs **courtes** et pertinentes. Idéalement avec des mot-clés
+2. lorsqu'un utilisateur ou un moteur de recherche lit une URL, il doit savoir à quoi s'attendre à lire comme contenu
+3. utiliser uniquement des **tirets** pour séparer les mots
+4. utiliser uniquement des **minuscules**, sans caractères spéciaux
+5. utiliser une **structure de répertoires** claire et simple
+
+URL non optimisée :
+```https://www.myhomepage.com/blog/title/2379118/?ref_=ttep_ep1```
+
+URL optimisée :
+```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
