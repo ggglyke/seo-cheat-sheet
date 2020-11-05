@@ -51,14 +51,20 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   
   ### <a name="robotsTag">La balise meta robots</a>
   Elle indique pour une page donnée si celle-ci doit être indexée par les moteurs de recherche (= enregistrée ou non dans leur base de données) et si les moteurs de recherche doivent suivre les liens présents sur la page ou non
-  Default : index, follow
+  
+ Default : index, follow
   ```xml
   <head>
     <meta name=”robots” content=”index, follow” />
   </head>
-  ```  
+  ```
+  
+2 couples de valeurs possibles : [index, noindex] et [follow, nofollow]
+- index : les moteurs sont autorisés à indexer (enregistrer) la page
+- noindex : les moteurs ne sont pas autorisés à indexer (enregistrer) la page
+- follow : les moteurs vont suivre les liens présents sur la page
+- nofollow : les moteurs ne vont pas suivre les liens présents sur la page
 
-<img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true" alt="SERP Snippet" width="750"/>
 
   > - environ 160 caractères de long
   > - chaque page doit avoir un balise ```<meta name="description" content="">``` unique
