@@ -72,7 +72,10 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
 ### <a name="html">Structure HTML globale</a>
 Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
 1. utiliser les balises essentielles au SEO mentionnées ici
-2. remplacer les ```<div>``` par les éléments sémantiques lorsque cela est possible : ```<header>, <nav>, <main>, <aside>, <article>, <footer>``` etc.
+2. remplacer les ```<div>``` par les éléments sémantiques lorsque cela est possible : 
+```xml
+<header>, <nav>, <main>, <aside>, <article>, <footer>
+```
 ### <a name="url">Structure des URLs</a>
 Les URLs sont une version humainement lisible des adresses IP des serveurs où sont hébergées les pages. Les moteurs de recherche les utilisent pour déterminer la pertinence d'une page par rapport à une requête de recherche. Elles sont donc importantes pour le référencement.
 
