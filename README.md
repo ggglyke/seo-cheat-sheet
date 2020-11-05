@@ -80,7 +80,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   - nofollow : les moteurs ne vont pas suivre les liens présents sur la page
   
  Il existe d'autres directives possibles dans cette balise : [Meta robots, maitrisez votre indexation avec cette balise (seo.fr)](https://www.seo.fr/definition/meta-robots)
-### <a name="canonicalTag">La balise `<link rel="canonical" href="..." />`</a>
+### <a name="canonicalTag">La balise canonical</a>
 
 `<link rel="canonical" href="https://myhomepage.com" />`
 
