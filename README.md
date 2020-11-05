@@ -64,5 +64,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   - noindex : les moteurs ne sont pas autorisés à indexer (enregistrer) la page
   - follow : les moteurs vont suivre les liens présents sur la page
   - nofollow : les moteurs ne vont pas suivre les liens présents sur la page
+  
+ Il existe d'autres directives possibles dans cette balise : [Meta robots, maitrisez vontre indexation avec cette balise (seo.fr)](https://www.seo.fr/definition/meta-robots)
 
 ## performances
