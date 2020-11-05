@@ -7,7 +7,9 @@ SEO recommandations for devs
 
 ## <a name="tags">Balises html importantes</a>
 ### La balise ```<title>```
-  Peut-être la balise la plus importante de toutes. Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots-clés pertinents.
+Peut-être la balise la plus importante de toutes. Son contenu apparait dans le titre de l'onglet du navigateur et dans le texte en bleu dans les résultats de recherche Google. 
+![alt text](https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true)
+Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots-clés pertinents.
   
   Une balise ```<title>``` non optimisée :
   ```xml
@@ -21,4 +23,21 @@ SEO recommandations for devs
     <title>Location bureaux Nantes - Bureaux locaux</title>
   </head>
   ```
+  > - entre 50 et 70 caractères
+  > - chaque page doit avoir un balise ```<title>``` unique
+  > - mots-clés importants au début
+  > - un titre bien écrit influence le taux de clic
+  
+  ### La balise meta description 
+  Elle sert à décrire le contenu de la page. Elle apparait dans le texte en noir pour chaque résultat de recherche sur Google. Son contenu n'est pas pris en compte pour le SEO mais elle influence le taux de clic.
+
+  ```xml
+  <head>
+    <meta name="description" content="Ici une description cohérente de la page">
+  </head>
+  ```
+  > - environ 160 caractères de long
+  > - chaque page doit avoir un balise ```<meta name="description" content="">``` unique
+  > - contenu non pris en compte pour le ranking
+  > - un description bien écrite influence le taux de clic
 ## performances
