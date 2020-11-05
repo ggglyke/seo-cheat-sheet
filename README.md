@@ -2,8 +2,13 @@
 SEO recommandations for devs
 
 ### Sommaire
-- [Structure](#structure)
+- [Balises html importantes](#tags)
 - performances
 
-## <a name="structure">Structure</a>
+## <a name="tags">Balises html importantes</a>
+### la balise <title>
+  Maybe most important tag of them all. Every page should have a unique title tag and include relevant keywords for that specific site.
+  ```html
+  <title>Accueil</title>
+  ```
 ## performances
