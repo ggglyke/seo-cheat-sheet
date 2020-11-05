@@ -5,6 +5,7 @@ SEO recommandations for devs
 - [Balises html importantes](#tags)
   - [La balise title](#titleTag)
   - [La balise meta description](#descriptionTag)
+  - [La balise meta robots](#robotsTag)
 - performances
 
 ## <a name="tags">Balises html importantes</a>
@@ -38,6 +39,22 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   ```xml
   <head>
     <meta name="description" content="Nantes : 296 annonces de location de bureaux à Nantes sur BureauxLocaux.com. Trouvez les bureaux de votre entreprise grâce à BureauxLocaux. Toutes les annonces immobilières pour les entreprises.">
+  </head>
+  ```  
+
+<img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true" alt="SERP Snippet" width="750"/>
+
+  > - environ 160 caractères de long
+  > - chaque page doit avoir un balise ```<meta name="description" content="">``` unique
+  > - contenu non pris en compte pour le ranking
+  > - un description bien écrite influence le taux de clic
+  
+  ### <a name="robotsTag">La balise meta robots</a>
+  Elle indique pour une page donnée si celle-ci doit être indexée par les moteurs de recherche (= enregistrée ou non dans leur base de données) et si les moteurs de recherche doivent suivre les liens présents sur la page ou non
+  Default : index, follow
+  ```xml
+  <head>
+    <meta name=”robots” content=”index, follow” />
   </head>
   ```  
 
