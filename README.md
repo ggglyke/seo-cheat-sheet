@@ -60,14 +60,9 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   ```
   
 2 couples de valeurs possibles : [index, noindex] et [follow, nofollow]
-- index : les moteurs sont autorisés à indexer (enregistrer) la page
-- noindex : les moteurs ne sont pas autorisés à indexer (enregistrer) la page
-- follow : les moteurs vont suivre les liens présents sur la page
-- nofollow : les moteurs ne vont pas suivre les liens présents sur la page
+  - index : les moteurs sont autorisés à indexer (enregistrer) la page
+  - noindex : les moteurs ne sont pas autorisés à indexer (enregistrer) la page
+  - follow : les moteurs vont suivre les liens présents sur la page
+  - nofollow : les moteurs ne vont pas suivre les liens présents sur la page
 
-
-  > - environ 160 caractères de long
-  > - chaque page doit avoir un balise ```<meta name="description" content="">``` unique
-  > - contenu non pris en compte pour le ranking
-  > - un description bien écrite influence le taux de clic
 ## performances
