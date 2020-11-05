@@ -83,6 +83,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
 ### <a name="canonicalTag">La balise `<link rel="canonical" href="..." />`</a>
 
 `<link rel="canonical" href="https://myhomepage.com" />`
+
 Utiliser la balise canonical est un moyen d'indiquer à Google la copie originale d'une page donnée. La bonne utilisation de cette balise permet d'éviter les problèmes de contenu dupliqué.
 - Par défaut, chaque page devra avoir une balise canonical pointant vers elle-même (self-canonical)
 - Si la page B est une copie de la page A alors, la page B devra avoir une balise canonical pointant vers la page A
