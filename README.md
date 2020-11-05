@@ -32,10 +32,13 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   
   ### La balise meta description 
   Elle sert à décrire le contenu de la page. Elle apparait dans le texte en noir pour chaque résultat de recherche sur Google. Son contenu n'est pas pris en compte pour le SEO mais elle influence le taux de clic.
+  
+  
+<img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true" alt="SERP Snippet" width="750"/>
 
   ```xml
   <head>
-    <meta name="description" content="Ici une description cohérente de la page">
+    <meta name="description" content="Nantes : 296 annonces de location de bureaux à Nantes sur BureauxLocaux.com. Trouvez les bureaux de votre entreprise grâce à BureauxLocaux. Toutes les annonces immobilières pour les entreprises.">
   </head>
   ```
   > - environ 160 caractères de long
