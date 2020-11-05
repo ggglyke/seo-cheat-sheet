@@ -84,7 +84,8 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
 Utiliser la balise canonical est un moyen d'indiquer à Google la copie originale d'une page donnée. La bonne utilisation de cette balise permet d'éviter les problèmes de contenu dupliqué.
 - Par défaut, chaque page devra avoir une balise canonical pointant vers elle-même (self-canonical)
 - Si la page B est une copie de la page A alors, la page B devra avoir une balise canonical pointant vers la page A
-`<link rel=”canonical” href=”https://myhomepage.com” />`
+
+`<link rel="canonical" href="https://myhomepage.com" />`
 > Ne pas utiliser de balise canonical sur la pagination (erreur fréquente)
 ## <a name="jsframework">Problèmes fréquents avec les framework JavaScript modernes</a>
 De nombreux sites utilisent aujourd'hui toutes les possibilités et les avantages que les frameworks JavaScript modernes comme React, Angular ou Vue proposent. Cependant, construire des sites web avec ces frameworks pose un **problème majeur pour le SEO : les moteurs de recherchent ne "voient" pas la structure html "normale"** nécessaire pour la bonne compréhension de son contenu. La plupart du temps, **uniquement une `<div>` vide est rendue** et présente dans le code source initial. Le framework se chargera d'appeler le reste du contenu et de construire le DOM qui ne sera pas vu par les moteurs de recherche.
