@@ -4,6 +4,7 @@ SEO recommandations for devs
 ### Sommaire
 - [Balises html importantes](#tags)
   - [La balise title](#titleTag)
+  - [La balise meta description](#descriptionTag)
 - performances
 
 ## <a name="tags">Balises html importantes</a>
@@ -31,7 +32,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   > - mots-clés importants au début
   > - un titre bien écrit influence le taux de clic
   
-  ### La balise meta description 
+  ### <a name="descriptionTag">La balise meta description</a>
   Elle sert à décrire le contenu de la page. Elle apparait dans le texte en noir pour chaque résultat de recherche sur Google. Son contenu n'est pas pris en compte pour le SEO mais elle influence le taux de clic.
   
   ```xml
