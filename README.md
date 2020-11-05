@@ -8,6 +8,7 @@ SEO recommandations for devs
 ## <a name="tags">Balises html importantes</a>
 ### La balise ```<title>```
 Peut-être la balise la plus importante de toutes. Son contenu apparait dans le titre de l'onglet du navigateur et dans le texte en bleu dans les résultats de recherche Google. 
+
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true" alt="SERP Snippet" width="750"/>
 
 Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots-clés pertinents.
