@@ -3,10 +3,11 @@ SEO recommandations for devs
 
 ### Sommaire
 - [Balises html importantes](#tags)
+  - [La balise title](#titleTag)
 - performances
 
 ## <a name="tags">Balises html importantes</a>
-### La balise ```<title>```
+### <a name="titleTag">La balise ```<title>```
 Peut-être la balise la plus importante de toutes. Son contenu apparait dans le titre de l'onglet du navigateur et dans le texte en bleu dans les résultats de recherche Google. 
 
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true" alt="SERP Snippet" width="750"/>
