@@ -7,7 +7,7 @@ SEO recommandations for devs
   - [La balise meta description](#descriptionTag)
   - [La balise de titre H1](#h1Tag)  
   - [La balise meta robots](#robotsTag)
-  - [La balise canonical](#canonicalTag)
+  - [La balise canonical (à faire)](#canonicalTag)
 - [Le problème des formulaires et contenus cachés (à faire)](#forms)
 - [Problèmes fréquents avec les framework JavaScript modernes](#jsframework)
 - [Robots.txt et sitemap.xml (à faire)](#robotsSitemap)
