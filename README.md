@@ -8,7 +8,7 @@ SEO recommandations for devs
 ## <a name="tags">Balises html importantes</a>
 ### la balise <title>
   Maybe most important tag of them all. Every page should have a unique title tag and include relevant keywords for that specific site.
-  ```html
+  ```xml
   <title>Accueil</title>
   ```
 ## performances
