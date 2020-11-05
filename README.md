@@ -69,7 +69,10 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
  Il existe d'autres directives possibles dans cette balise : [Meta robots, maitrisez votre indexation avec cette balise (seo.fr)](https://www.seo.fr/definition/meta-robots)
 
 ## <a name="structure">Structure et navigation</a>
-### <a name="html">Structure HTML</a>
+### <a name="html">Structure HTML globale</a>
+Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
+1. utiliser les balises essentielles au SEO mentionnées ici
+2. remplacer les ```<div>``` par les éléments sémantiques lorsque cela est possible : ```<header>, <nav>, <main>, <aside>, <article>, <footer>``` etc.
 ### <a name="url">Structure des URLs</a>
 Les URLs sont une version humainement lisible des adresses IP des serveurs où sont hébergées les pages. Les moteurs de recherche les utilisent pour déterminer la pertinence d'une page par rapport à une requête de recherche. Elles sont donc importantes pour le référencement.
 
@@ -80,7 +83,9 @@ Les URLs sont une version humainement lisible des adresses IP des serveurs où s
 5. utiliser une **structure de répertoires** claire et simple
 
 URL non optimisée :
+
 ```https://www.myhomepage.com/blog/title/2379118/?ref_=ttep_ep1```
 
 URL optimisée :
+
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
