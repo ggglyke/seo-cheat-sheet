@@ -7,12 +7,13 @@ SEO recommandations for devs
   - [La balise meta description](#descriptionTag)
   - [La balise de titre H1](#h1Tag)  
   - [La balise meta robots](#robotsTag)
-- [Le problème des formulaires et contenus cachés](#forms)
+- [Le problème des formulaires et contenus cachés (à faire)](#forms)
 - [Problèmes fréquents avec les framework JavaScript modernes](#jsframework)
 - [Structure et navigation](#structure)
   - [HTML sémantique](#html)
   - [Hiérarchie des titres](#headings)  
-  - [Structure des URLs](#url)  
+  - [Structure des URLs](#url)
+  - [Pagination (à faire)](#pagination)  
 
 ## <a name="tags">Balises html importantes</a>
 ### <a name="titleTag">La balise ```<title>```
