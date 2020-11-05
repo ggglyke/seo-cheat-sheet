@@ -124,3 +124,15 @@ URL non optimisée :
 URL optimisée :
 
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
+## Redirections
+Les redirections permanentes `301 Moved Permanently` ou temporaires `302 Found` sont **indispensables en SEO** pour indiquer aux moteurs de recherche les nouvelles URLs des pages qui auraient migrées. En effet, les moteurs de recherchent gardent les URLs en mémoire et leur attribut un certain **'score' SEO**. Si une page change d'URL et que rien n'est fait alors celle-ci perd tout son potentiel SEO. Les redirections ont pour objectif de permettre la **transmission d'une partie de ce potentiel** aux nouvelles pages.
+
+Dans quels cas utiliser les redirections ?
+  - lors d'une refonte, lorsque les URLs sont modifiées
+  - lorsqu'un produit n'est plus en stock
+  - lorsqu'un contenu est modifié/déplacé
+  
+**Maillage interne = `200 OK` liens externes = redirections**
+
+Les redirections sont utiles pour les moteurs de recherche qui ont les URLs en mémoire, comme pour les liens externes pointant vers votre site ou les internautes qui tentent d'accéder directement à un contenu. Ceux-ci vont alors solliciter une URL qui n'existe plus, ils vont donc devoir passer par la redirection pour arrivé au contenu demandé.
+Au sein du site, aucun lien ne devrait pointer vers une page en redirection (temporaire ou permanente). Les URLs courantes sont connues et stables donc le maillage interne doit pointer uniquement vers des pages en statut http `200 OK`
