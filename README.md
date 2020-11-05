@@ -7,6 +7,7 @@ SEO recommandations for devs
   - [La balise meta description](#descriptionTag)
   - [La balise de titre H1](#h1Tag)  
   - [La balise meta robots](#robotsTag)
+- [Problèmes fréquents avec les framework JavaScript modernes](#jsframework)
 - [Structure et navigation](#structure)
   - [HTML sémantique](#html)
   - [Hiérarchie des titres](#headings)  
@@ -69,7 +70,9 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   - nofollow : les moteurs ne vont pas suivre les liens présents sur la page
   
  Il existe d'autres directives possibles dans cette balise : [Meta robots, maitrisez votre indexation avec cette balise (seo.fr)](https://www.seo.fr/definition/meta-robots)
-
+## <a name="jsframework">Problèmes fréquents avec les framework JavaScript modernes</a>
+De nombreux sites utilisent aujourd'hui toutes les possibilités et les avantages que les frameworks JavaScript modernes comme React, Angular ou Vue proposent. Cependant, construire des sites web avec ces frameworks pose un **problème majeur pour le SEO : les moteurs de recherchent ne "voient" pas la structure html "normale"** nécessaire pour la bonne compréhension de son contenu. La plupart du temps, **uniquement une `<div>` vide est rendue** et présente dans le code source initial. Le framework se chargera d'appeler le reste du contenu et de construire le DOM qui ne sera pas vu par les moteurs de recherche.
+> Aujourd'hui, les moteurs de recherche interprètent de mieux en mieux le JavaScript et les différents frameworks. Cependant, il faut partir du principe que les moteurs de recherche allouent un temps donné à l'exploration d'un site. Au-delà de ce temps, il quitte le site même s'il n'en a pas exploré tous les contenus. L'interprétation d'une page générée via JavaScript sera beaucoup plus gourmande en ressources que la lecture d'un simple code source en html.
 ## <a name="structure">Structure et navigation</a>
 ### <a name="html">Structure HTML sémantique</a>
 Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
@@ -82,7 +85,7 @@ Les titres et sous-titres des contenus doivent être structurés avec les balise
 - Les balises de titres sont utilisées pour **structurer le contenu central** d'une page. On ne doit pas les retrouver dans les parties annexes (pas de `<hn></hn>` dans le header, menu principal, sidebar, footer etc.)
 - Les balises de titre n'ont **pas pour rôle de styliser le contenu**, c'est le rôle d'un CSS bien conçu. (ne pas utiliser une balise titre pour obtenir un certain style)
 
-Une structure de titres correcte :
+Un exemple de structure de titres correcte :
 ```xml
 <h1>Titre principal</h1>
   
