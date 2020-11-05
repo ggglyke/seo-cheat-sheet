@@ -7,6 +7,7 @@ SEO recommandations for devs
   - [La balise meta description](#descriptionTag)
   - [La balise de titre H1](#h1Tag)  
   - [La balise meta robots](#robotsTag)
+- [Le problème des formulaires et contenus cachés](#forms)
 - [Problèmes fréquents avec les framework JavaScript modernes](#jsframework)
 - [Structure et navigation](#structure)
   - [HTML sémantique](#html)
@@ -73,6 +74,12 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
 ## <a name="jsframework">Problèmes fréquents avec les framework JavaScript modernes</a>
 De nombreux sites utilisent aujourd'hui toutes les possibilités et les avantages que les frameworks JavaScript modernes comme React, Angular ou Vue proposent. Cependant, construire des sites web avec ces frameworks pose un **problème majeur pour le SEO : les moteurs de recherchent ne "voient" pas la structure html "normale"** nécessaire pour la bonne compréhension de son contenu. La plupart du temps, **uniquement une `<div>` vide est rendue** et présente dans le code source initial. Le framework se chargera d'appeler le reste du contenu et de construire le DOM qui ne sera pas vu par les moteurs de recherche.
 > Aujourd'hui, les moteurs de recherche interprètent de mieux en mieux le JavaScript et les différents frameworks. Cependant, il faut partir du principe que les moteurs de recherche allouent un temps donné à l'exploration d'un site. Au-delà de ce temps, il quitte le site même s'il n'en a pas exploré tous les contenus. L'interprétation d'une page générée via JavaScript sera beaucoup plus gourmande en ressources que la lecture d'un simple code source en html.
+Bonnes pratiques :
+- **mettre en place le SSR** (server-side rendering) : le serveur renvoit directement la version HTML de la page, lisible par les moteurs au moment du crawl.
+- le pre(rendering peut être une alternative si le SSR est trop complexe à mettre en place
+- Limiter la taille des bundles JavaScript. Les bundles de petite taille améliorent la vitesse de chargement, l'usage de mémoire et du processeur.
+- Explorer les Chrome DevTools’ Timeline & JavaScript Profiler pour analyser l'impact du JavaScript.
+## <a name="forms">Le problème des formulaires</a>
 ## <a name="structure">Structure et navigation</a>
 ### <a name="html">Structure HTML sémantique</a>
 Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
