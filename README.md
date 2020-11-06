@@ -291,7 +291,7 @@ Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci p
 
 **Recommandé : pagination numéraire** et non un système 'précédent - suivant' (contenus profonds inaccessibles) ni un système de lazy-loading (JS très mal interprété par les moteurs)
 
-<img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination.jpg?raw=true" alt="pagination" width="750"/>
+<img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination.jpg?raw=true" alt="pagination" width="500"/>
 
 #### URLs de pagination
 Les URLs des pages de listing doivent être 'propres' et facilement compréhensibles. On utilisera donc la **réécriture d'URL** pour masquer les paramètres s'ils sont utilisés à la base.
