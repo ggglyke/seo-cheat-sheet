@@ -289,10 +289,14 @@ URL optimisée :
 ### <a name="pagination">Pagination</a>
 Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci permettra aux robots et aux internautes d'accéder aux contenus les plus profonds en un **minimum de clics**.
 
-**Recommandation : pagination numéraire**
+**Recommandation : pagination numéraire** :
 
-Sur une page n, on présentera les liens vers les pages (quand elles existent) n-30, n-20, n-10, n-3,n-2, n-1, n+1,n+2,n+3,n+10, n+20,n+30
-> On évitera les systèmes 'précédent - suivant' (contenus profonds inaccessibles) et le lazy-loading (JS très mal interprété par les moteurs). 
+Sur une page n, on présentera les liens hypertextes vers les pages (quand elles existent) n-30, n-20, n-10, n-3,n-2, n-1, n+1,n+2,n+3,n+10, n+20,n+30. Les URLs de ces pages existent et son réécrites correctement (voir point suivant)
+
+**A éviter** :
+- les systèmes '< précédent - suivant >' (contenus profonds inaccessibles)
+- lazy-loading (JS très mal interprété par les moteurs).
+> On peut proposer ses systèmes **en plus** de la pagination numéraire par liens hypertextes mais il ne doivent en aucun cas être les seuls moyens de naviguer.
 
 Exemple de pagination **non optimisée** : **les contenus sont inaccessibles** à cause du bouton en JS:
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination-gdc.jpg?raw=true" alt="pagination" width="500"/>
