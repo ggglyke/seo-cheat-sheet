@@ -296,6 +296,7 @@ Sur une page n, on présentera les liens vers les pages (quand elles existent) n
 
 Exemple de pagination **non optimisée** : **les contenus sont inaccessibles** à cause du bouton en JS:
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination-gdc.jpg?raw=true" alt="pagination" width="500"/>
+
 Exemple de pagination **optimisée** : liens hypertextes et contenus profonds accessibles aisément :
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination.jpg?raw=true" alt="pagination" width="500"/>
 
