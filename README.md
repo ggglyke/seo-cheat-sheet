@@ -293,6 +293,14 @@ Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci p
 
 Sur une page n, on présentera les liens hypertextes vers les pages (quand elles existent) n-30, n-20, n-10, n-3,n-2, n-1, n+1,n+2,n+3,n+10, n+20,n+30. Les URLs de ces pages existent et son réécrites correctement (voir point suivant)
 
+#### Bonnes pratiques sur les pages de listing :
+- les balises `<title>` et `<h1>` des pages de la série mentionnent le numéro de la page courant pour éviter la duplication (sauf page 1)
+- un emplacement est prévu pour un **texte de 500 à 1500 mots sur la 1ère page de la série** uniquement
+- les URLs sont réécrites sans paramètre
+- toutes les pages de la série doivent être en `index, follow`
+- toutes les pages de la série ont une balise `canonical` pointant vers elles-mêmes (self referencing canonical)
+- Google a indiqué ne plus prendre en compte les directives `rel="prev"` et `rel="next"`, il n'est donc plus obligatoire de les utiliser
+
 **A éviter** :
 - les systèmes '< précédent - suivant >' (contenus profonds inaccessibles)
 - lazy-loading (JS très mal interprété par les moteurs)
@@ -315,12 +323,7 @@ Une URL de pagination non optimisée :
 Une URL de pagination optimisée :
 `https://www.bureauxlocaux.com/location/nantes/page/3/`
 
-#### Bonnes pratiques sur les pages de listing :
-- les balises `<title>` et `<h1>` des pages de la série mentionnent le numéro de la page courant pour éviter la duplication (sauf page 1)
-- un emplacement est prévu pour un **texte de 500 à 1500 mots sur la 1ère page de la série** uniquement
-- les URLs sont réécrites sans paramètre
-- toutes les pages de la série doivent être en `index, follow`
-- toutes les pages de la série ont une balise `canonical` pointant vers elles-mêmes (self referencing canonical)
+> la page 1 doit toujours avoir la même url : idéalement `https://www.bureauxlocaux.com/location/nantes/` ou `https://www.bureauxlocaux.com/location/nantes/page/1` mais jamais les 2 à la fois
 
 ## <a name="redirects">Redirections</a>
 Les redirections permanentes `301 Moved Permanently` ou temporaires `302 Found` sont **indispensables en SEO** pour indiquer aux moteurs de recherche les nouvelles URLs des pages qui auraient migrées. En effet, les moteurs de recherchent gardent les URLs en mémoire et leur attribut un certain **'score' SEO**. Si une page change d'URL et que rien n'est fait alors celle-ci perd tout son potentiel SEO. Les redirections ont pour objectif de permettre la **transmission d'une partie de ce potentiel** aux nouvelles pages.
