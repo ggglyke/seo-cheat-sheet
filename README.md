@@ -13,7 +13,7 @@ SEO recommandations for devs
 - [La duplication de contenu](#duplicate)
 - [Robots.txt et sitemap.xml (à faire)](#robotsSitemap)
   - [Le fichier robots.txt (à faire)](#robotsFile)
-  - [Le fichier sitemap.xml (à faire)](#sitemapFile)
+  - [Le fichier sitemap.xml](#sitemapFile)
 - [Structure et navigation](#structure)
   - [HTML sémantique](#html)
   - [Hiérarchie des titres](#headings)  
