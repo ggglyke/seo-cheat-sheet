@@ -128,16 +128,16 @@ Le fichier sitemap.xml peut ensuite être soumis directement à Google via Googl
 #### Index de sitemaps
 Lorsque le site comporte un très grand nombre de pages ou lorsqu'il en compte plus de 50 000, l'index de sitemaps devient indispensable. Il faut alors créer des fichiers sitemaps différents (par catagories par exemple) et les lier dans un fichier `index de sitemaps` :
 ```xml
-  <?xml version="1.0" encoding="UTF-8"?>
-    <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      <sitemap>
-        <loc>https://example.com/sitemap1.xml</loc>
-        <lastmod>2019-01-01T18:23:17+00:00</lastmod>
-      </sitemap>
-      <sitemap>
-        <loc>https://example.com/sitemap2.xml</loc>
-        <lastmod>2019-01-01</lastmod>
-      </sitemap>
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://example.com/sitemap1.xml</loc>
+    <lastmod>2019-01-01T18:23:17+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://example.com/sitemap2.xml</loc>
+    <lastmod>2019-01-01</lastmod>
+  </sitemap>
 </sitemapindex>
 ```
 #### Les images dans le sitemap
