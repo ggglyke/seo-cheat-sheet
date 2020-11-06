@@ -315,11 +315,13 @@ Une URL de pagination non optimisée :
 Une URL de pagination optimisée :
 `https://www.bureauxlocaux.com/location/nantes/page/3/`
 
-#### Les erreurs à éviter avec la pagination :
-- charger les éléments "suivants" via Javascript (lazy-loading, `<button>` etc.)
-- ne pas faire attention à la profondeur des contenus (absence de liens n+10, n+20 etc. ou navigation "précedent - suivant")
-- placer une balise `<link rel="canonical" href="" />` vers la première page de la série
-- placer une balise `<meta name="robots" content="nofollow" />` sur les pages au-delà de la 1ère
+#### Bonnes pratiques sur les pages de listing :
+- les balises `<title>` et `<h1>` des pages de la série mentionnent le numéro de la page courant pour éviter la duplication (sauf page 1)
+- un emplacement est prévu pour un **texte de 500 à 1500 mots sur la 1ère page de la série** uniquement
+- les URLs sont réécrites sans paramètre
+- toutes les pages de la série doivent être en `index, follow`
+- toutes les pages de la série ont une balise `canonical` pointant vers elles-mêmes (self referencing canonical)
+
 ## <a name="redirects">Redirections</a>
 Les redirections permanentes `301 Moved Permanently` ou temporaires `302 Found` sont **indispensables en SEO** pour indiquer aux moteurs de recherche les nouvelles URLs des pages qui auraient migrées. En effet, les moteurs de recherchent gardent les URLs en mémoire et leur attribut un certain **'score' SEO**. Si une page change d'URL et que rien n'est fait alors celle-ci perd tout son potentiel SEO. Les redirections ont pour objectif de permettre la **transmission d'une partie de ce potentiel** aux nouvelles pages.
 
