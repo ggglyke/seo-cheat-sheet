@@ -121,7 +121,7 @@ Le fichier sitemap.xml peut ensuite être soumis directement à Google via Googl
 </urlset>
 ```
 - `urlset` : encapsulation de l'ensemble des URLs
-- `loc` : URL absolue de la page
+- `loc` : URL absolue de la page répondant en **`HTTP 200 OK`**
 - `lastmod` : date de dernière modification
 
 ❗ ATTENTION : un fichier sitemap ne peut pas contenir plus de 50 000 URLs. Dans ce cas, utiliser un index de sitemaps.
@@ -158,6 +158,14 @@ Pour faciliter l'exploration des images, on peut aussi les inclure dans le sitem
 </urlset> 
 ```
 #### Les pages à y inclure, celles à exclure
+De manière générale on y intègre toutes les pages que l'on souhaite voir indexées sur les moteurs de recherche.
+
+Dans le fichier sitemap, exclure :
+- la pagination au-delà de la 1ère page
+- les pages de la section privée (avec formulaire de connexion)
+- les URLs avec paramètres (s'il existe des équivalents avec URL clean)
+- les pages "pauvres" (profil, attachement, dossier de redirections, login, logout...)
+
 ## <a name="forms">Les formulaires et le web invisible</a>
 Le "web invisible" désigne en fait l'ensemble des contenus non accessibles aux moteurs de recherche. Il peut s'agir de contenus volontairement masqués aux robots car payants (abonnement), restreints (mot de passe), ou non accessibles grâces à différentes directives (robots.txt, meta robots etc.).
 
