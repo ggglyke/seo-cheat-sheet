@@ -245,7 +245,7 @@ Solutions :
 - **Utiliser le maillage interne pour rendre les contenus accessibles via des liens hypertextes** (ex : un lien vers la page "achat appartement Nantes" existe)
 - Ne pas utiliser les éléments de formulaire à la place des liens (un `<button>` n'a pas du tout le même rôle qu'un `<a>`)
 - Intégrer les contenus derrière les formulaires au sitemap xml pour offrir un second chemin de navigation en plus du maillage interne
-- Ne pas utiliser des éléments de formulaires pour charger la pagination (un <button> "Plus de résultats" ne sera jamais déclenché, les items resteront inaccessibles)
+- Ne pas utiliser des éléments de formulaires pour charger la pagination (un `<button>` "Plus de résultats" ne sera jamais déclenché, les items resteront inaccessibles)
 ## <a name="structure">Structure et navigation</a>
 ### <a name="html">Structure HTML sémantique</a>
 Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
