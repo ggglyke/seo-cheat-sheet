@@ -66,7 +66,15 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   > - contenu non pris en compte pour le ranking
   > - un description bien écrite influence le taux de clic
   ### <a name="h1tag">La balise `<h1></h1>`</a>
-  Elle correspond au titre éditorial de la page. Visible dans le contenu, ce titre est le titre principal de la page. Il doit décrire le mieux possible le contenu de la page en utilisant les mots-clés appropriés
+  Elle correspond au titre éditorial de la page. Visible dans le contenu, ce titre est le titre principal de la page. Il doit décrire le mieux possible le contenu de la page en utilisant les mots-clés appropriés.
+  
+  La balise `<h1></h1>` doit :
+  - être présente obligatoirement une et une seule fois sur toutes les pages
+  - être unique (non dupliquée d'une page à l'autre)
+  - décrire le contenu de la page précisément
+  - contenir les mots-clés pertinents
+  - avoir le même 'sens' que le contenu de la balise title, avec des mots-clés différents mais proches si possible
+  
   ### <a name="robotsTag">La balise meta robots</a>
   Elle indique pour une page donnée si celle-ci doit être indexée par les moteurs de recherche (= enregistrée ou non dans leur base de données) et si les moteurs de recherche doivent suivre les liens présents sur la page ou non
   
