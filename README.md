@@ -287,6 +287,23 @@ URL optimisée :
 
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
 ### <a name="pagination">Pagination</a>
+Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci permettra aux robots et aux internautes d'accéder aux contenus les plus profonds en un **minimum de clics**.
+Il est recommandé d'utiliser une pagination numéraire et non un système 'précédent - suivant' (contenus profonds inaccessibles) ni un système de lazy-loading (JS très mal interprété par les moteurs)
+
+#### URLs de pagination
+Les URLs des pages de listing doivent être 'propres' et facilement compréhensibles. On utilisera donc la **réécriture d'URL** pour masquer les paramètres s'ils sont utilisés à la base.
+
+Une URL de pagination non optimisée :
+`https://www.bureauxlocaux.com/location/nantes/?page=3&offset=20`
+
+Une URL de pagination non optimisée :
+`https://www.bureauxlocaux.com/location/nantes/page/3/`
+
+#### Les erreurs à éviter avec la pagination :####
+- charger les éléments "suivants" via Javascript (lazy-loading, `<button>` etc.)
+- ne pas faire attention à la profondeur des contenus
+- placer une balise `<link rel="canonical" href="" />` vers la première page de la série
+- placer une balise `<meta name="robots" content="nofollow" />` sur les pages au-delà de la 1ère
 ## <a name="redirects">Redirections</a>
 Les redirections permanentes `301 Moved Permanently` ou temporaires `302 Found` sont **indispensables en SEO** pour indiquer aux moteurs de recherche les nouvelles URLs des pages qui auraient migrées. En effet, les moteurs de recherchent gardent les URLs en mémoire et leur attribut un certain **'score' SEO**. Si une page change d'URL et que rien n'est fait alors celle-ci perd tout son potentiel SEO. Les redirections ont pour objectif de permettre la **transmission d'une partie de ce potentiel** aux nouvelles pages.
 
