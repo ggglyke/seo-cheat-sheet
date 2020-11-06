@@ -296,10 +296,10 @@ Les URLs des pages de listing doivent être 'propres' et facilement compréhensi
 Une URL de pagination non optimisée :
 `https://www.bureauxlocaux.com/location/nantes/?page=3&offset=20`
 
-Une URL de pagination non optimisée :
+Une URL de pagination optimisée :
 `https://www.bureauxlocaux.com/location/nantes/page/3/`
 
-#### Les erreurs à éviter avec la pagination :####
+#### Les erreurs à éviter avec la pagination :
 - charger les éléments "suivants" via Javascript (lazy-loading, `<button>` etc.)
 - ne pas faire attention à la profondeur des contenus
 - placer une balise `<link rel="canonical" href="" />` vers la première page de la série
