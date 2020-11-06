@@ -173,4 +173,5 @@ Au sein du site, aucun lien ne devrait pointer vers une page en redirection (tem
 ---
 Sources : 
 - https://oseox.fr/referencement/formulaire-referencement.html
-
+- https://d2v4zi8pl64nxt.cloudfront.net/seo-cheat-sheet.pdf
+- https://9elements.com/seo-cheat-sheet/
