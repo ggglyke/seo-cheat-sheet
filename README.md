@@ -98,7 +98,7 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 - Limiter la taille des bundles JavaScript. Les bundles de petite taille améliorent la vitesse de chargement, l'usage de mémoire et du processeur.
 - Explorer les Chrome DevTools’ Timeline & JavaScript Profiler pour analyser l'impact du JavaScript.
 ## <a name="forms">Les formulaires et le web invisible</a>
-Le "web invisible" désigne en fait l'ensemble des contenus non accessibles aux moteurs de recherche. Il peut s'agir de contenus volontairement masqués aux robots car payants (abonnement), restreints (mot de passe), ou non accessibles grâces à différentes directives (robots.txt, sitemap.xml).
+Le "web invisible" désigne en fait l'ensemble des contenus non accessibles aux moteurs de recherche. Il peut s'agir de contenus volontairement masqués aux robots car payants (abonnement), restreints (mot de passe), ou non accessibles grâces à différentes directives (robots.txt, meta robots etc.).
 
 La plupart des contenu non accessibles ne le sont pas volontairement. Les robots d'exploration n'ont tout simplement pas les moyens de les crawler car ils sont accessibles derrière un formulaire.
 
@@ -108,8 +108,12 @@ En définitive, les contenus qui sont accessibles uniquement après validation d
 
 Exemple : sur un site immobilier, les annonces ne sont accessibles qu'après une recherche avec le module de recherche du site. Google ne verra jamais les annonces.
 
-La solution ? **Utiliser le maillage interne pour rendre les contenus accessibles via des liens hypertextes** (ex : un lien vers la page "achat appartement Nantes" existe)
+Solutions :
+- **Utiliser le maillage interne pour rendre les contenus accessibles via des liens hypertextes** (ex : un lien vers la page "achat appartement Nantes" existe)
+- Ne pas utiliser les éléments de formulaire à la place des liens (un <button> n'a pas du tout le même rôle qu'un <a>)
+- Intégrer les contenus derrière les formulaires au sitemap xml pour offrir un second chemin de navugation en plus du maillage interne
 ## <a name="structure">Structure et navigation</a>
+- Ne pas utiliser des éléments de formulaires pour charger la pagination (un <button> "Plus de résultats" ne sera jamais déclenché, les items resteront inaccessibles)
 ### <a name="html">Structure HTML sémantique</a>
 Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
 1. utiliser les balises essentielles au SEO mentionnées ici
