@@ -159,7 +159,7 @@ URL optimisée :
 
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
 ### <a name="pagination">Pagination</a>
-## <a name="redirects>Redirections</a>
+## <a name="redirects">Redirections</a>
 Les redirections permanentes `301 Moved Permanently` ou temporaires `302 Found` sont **indispensables en SEO** pour indiquer aux moteurs de recherche les nouvelles URLs des pages qui auraient migrées. En effet, les moteurs de recherchent gardent les URLs en mémoire et leur attribut un certain **'score' SEO**. Si une page change d'URL et que rien n'est fait alors celle-ci perd tout son potentiel SEO. Les redirections ont pour objectif de permettre la **transmission d'une partie de ce potentiel** aux nouvelles pages.
 
 Dans quels cas utiliser les redirections ?
