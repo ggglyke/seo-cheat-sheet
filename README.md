@@ -170,7 +170,7 @@ Dans quels cas utiliser les redirections ?
 Les redirections sont utiles pour les moteurs de recherche qui ont les URLs en mémoire, comme pour les liens externes pointant vers votre site ou les internautes qui tentent d'accéder directement à un contenu. Ceux-ci vont alors solliciter une URL qui n'existe plus, ils vont donc devoir passer par la redirection pour arrivé au contenu demandé.
 Au sein du site, aucun lien ne devrait pointer vers une page en redirection (temporaire ou permanente). Les URLs courantes sont connues et stables donc le maillage interne doit pointer uniquement vers des pages en statut http `200 OK`
 
-
+---
 Sources : 
-https://oseox.fr/referencement/formulaire-referencement.html
+- https://oseox.fr/referencement/formulaire-referencement.html
 
