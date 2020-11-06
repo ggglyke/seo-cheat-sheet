@@ -103,8 +103,27 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 ## <a name="robotsSitemap">Robots.txt et sitemap.xml</a>
 ### <a name="robotsFile">Le fichier robots.txt</a>
 ### <a name="sitemapFile">Le fichier sitemap.xml</a>
-Le fichier sitemap.xml sert à indiquer aux moteurs de recherche les URLs de l'ensemble des pages importantes du site. Il doit idéalement être accessible à la racine du site à cette adresse : `https://www.example.com/sitemap.xml`. Si ça n'est pas le cas, une redirection `301 redirect permanent` sera à mettre en place pour rediriger vers cette url.
+Le fichier sitemap.xml sert à indiquer aux moteurs de recherche les URLs de l'ensemble des pages que l'on souhaite voir indexées. Il doit idéalement être accessible à la racine du site à cette adresse : `https://www.example.com/sitemap.xml`. Si ça n'est pas le cas, une redirection `301 redirect permanent` sera à mettre en place pour rediriger vers cette url.
+
+Le fichier sitemap.xml peut ensuite être soumis directement à Google via Google Search Console
 #### Syntaxe du fichier sitemap.xml
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+          <loc>http://www.example.com/foo.html</loc>
+          <lastmod>2019-06-04</lastmod>
+      </url>
+      <url>
+          <loc>http://www.example.com/foo-bar.html</loc>
+          <lastmod>2019-06-04</lastmod>
+      </url>
+  </urlset>
+```
+- urlset : encapsulation de l'ensemble des URLs
+- loc : URL absolue de la page
+- lastmod : date de dernière modification
+❗ un fichier sitemap ne peut pas contenir plus de 50 000 URLs. Dans ce cas, utiliser un index de sitemaps.
 #### Index de sitemaps
 #### Les images dans le sitemap
 #### Les pages à y inclure, celles à exclure
