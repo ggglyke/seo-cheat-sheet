@@ -126,7 +126,7 @@ Le fichier sitemap.xml peut ensuite être soumis directement à Google via Googl
 
 ❗ ATTENTION : un fichier sitemap ne peut pas contenir plus de 50 000 URLs. Dans ce cas, utiliser un index de sitemaps.
 #### Index de sitemaps
-Lorsque le site comporte un très grand nombre de pages ou lorsqu'il en compte plus de 50 000, l'index de sitemaps devient indispensable. Il faut alors créer des fichiers sitemaps différents (par catagories par exemple) et les lier dans un fichier `index de sitemaps` :
+Lorsque le site comporte un très grand nombre de pages ou lorsqu'il en compte plus de 50 000, l'index de sitemaps devient indispensable. Il faut alors créer des fichiers sitemaps différents (par catagories par exemple) et les lier dans un fichier `sitemapindex` :
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -141,6 +141,22 @@ Lorsque le site comporte un très grand nombre de pages ou lorsqu'il en compte p
 </sitemapindex>
 ```
 #### Les images dans le sitemap
+Pour faciliter l'exploration des images, on peut aussi les inclure dans le sitemap. C'est une action recommandée lorsque l'enjeu SEO est important autour des images pour le site. La syntaxe est simple, comme pour le fichier `sitemap.xml` classique, chaque URL est associée aux images intégrées sur celle-ci :
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://example.com/sample.html</loc>
+    <image:image>
+      <image:loc>http://example.com/image.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://example.com/photo.jpg</image:loc>
+    </image:image>
+  </url> 
+</urlset> 
+```
 #### Les pages à y inclure, celles à exclure
 ## <a name="forms">Les formulaires et le web invisible</a>
 Le "web invisible" désigne en fait l'ensemble des contenus non accessibles aux moteurs de recherche. Il peut s'agir de contenus volontairement masqués aux robots car payants (abonnement), restreints (mot de passe), ou non accessibles grâces à différentes directives (robots.txt, meta robots etc.).
