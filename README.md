@@ -295,7 +295,8 @@ Sur une page n, on présentera les liens hypertextes vers les pages (quand elles
 
 **A éviter** :
 - les systèmes '< précédent - suivant >' (contenus profonds inaccessibles)
-- lazy-loading (JS très mal interprété par les moteurs).
+- lazy-loading (JS très mal interprété par les moteurs)
+- les boutons 'charger la suite' déclenchant un script Javascript
 > On peut proposer ses systèmes **en plus** de la pagination numéraire par liens hypertextes mais il ne doivent en aucun cas être les seuls moyens de naviguer.
 
 Exemple de pagination **non optimisée** : **les contenus sont inaccessibles** à cause du bouton en JS:
