@@ -8,7 +8,7 @@ SEO recommandations for devs
   - [La balise de titre H1](#h1Tag)  
   - [La balise meta robots](#robotsTag)
   - [La balise canonical](#canonicalTag)
-- [Les formulaires le web invisible (à faire)](#forms)
+- [Les formulaires et le web invisible](#forms)
 - [Les framework JavaScript modernes](#jsframework)
 - [Robots.txt et sitemap.xml (à faire)](#robotsSitemap)
   - [Le fichier robots.txt (à faire)](#robotsFile)
@@ -111,7 +111,7 @@ Exemple : sur un site immobilier, les annonces ne sont accessibles qu'après une
 Solutions :
 - **Utiliser le maillage interne pour rendre les contenus accessibles via des liens hypertextes** (ex : un lien vers la page "achat appartement Nantes" existe)
 - Ne pas utiliser les éléments de formulaire à la place des liens (un `<button>` n'a pas du tout le même rôle qu'un `<a>`)
-- Intégrer les contenus derrière les formulaires au sitemap xml pour offrir un second chemin de navugation en plus du maillage interne
+- Intégrer les contenus derrière les formulaires au sitemap xml pour offrir un second chemin de navigation en plus du maillage interne
 - Ne pas utiliser des éléments de formulaires pour charger la pagination (un <button> "Plus de résultats" ne sera jamais déclenché, les items resteront inaccessibles)
 ## <a name="structure">Structure et navigation</a>
 ### <a name="html">Structure HTML sémantique</a>
