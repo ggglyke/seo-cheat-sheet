@@ -113,6 +113,10 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 - Limiter la taille des bundles JavaScript. Les bundles de petite taille améliorent la vitesse de chargement, l'usage de mémoire et du processeur.
 - Explorer les Chrome DevTools’ Timeline & JavaScript Profiler pour analyser l'impact du JavaScript.
 ## <a name="duplicate">La duplication de contenu</a>
+### Duplication de la homepage
+### Duplication http/https
+### Duplication à cause du / (slash) de fin
+### Duplication à cause des paramètres d'URL
 ## <a name="robotsSitemap">Robots.txt et sitemap.xml</a>
 ### <a name="robotsFile">Le fichier robots.txt</a>
 Le fichier robots.txt est en théorie le premier fichier consulté par les moteurs de recherche dont Google avant de crawler le contenu d'un site.
