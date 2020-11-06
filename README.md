@@ -294,11 +294,10 @@ Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci p
 Sur une page n, on présentera les liens vers les pages (quand elles existent) n-30, n-20, n-10, n-3,n-2, n-1, n+1,n+2,n+3,n+10, n+20,n+30
 > On évitera les systèmes 'précédent - suivant' (contenus profonds inaccessibles) et le lazy-loading (JS très mal interprété par les moteurs). 
 
-- Un exemple de pagination non optimisée : les contenus profonds sont inaccessibles à cause du bouton en JS:
+Exemple de pagination **non optimisée** : **les contenus sont inaccessibles** à cause du bouton en JS:
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination-gdc.jpg?raw=true" alt="pagination" width="500"/>
-- Un exemple de pagination correcte : liens hypertextes et contenus profonds accessibles aisément :
+Exemple de pagination **optimisée** : liens hypertextes et contenus profonds accessibles aisément :
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination.jpg?raw=true" alt="pagination" width="500"/>
-
 
 
 #### URLs de pagination
