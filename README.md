@@ -85,10 +85,10 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   ```
   
 2 couples de valeurs possibles : [index, noindex] et [follow, nofollow]
-  - index (default) : les moteurs sont autorisés à indexer (enregistrer) la page
-  - noindex : les moteurs ne sont pas autorisés à indexer (enregistrer) la page
-  - follow (default) : les moteurs vont suivre les liens présents sur la page
-  - nofollow : les moteurs ne vont pas suivre les liens présents sur la page
+  - `index` (default) : les moteurs sont autorisés à indexer (enregistrer) la page
+  - `noindex` : les moteurs ne sont pas autorisés à indexer (enregistrer) la page
+  - `follow` (default) : les moteurs vont suivre les liens présents sur la page
+  - `nofollow` : les moteurs ne vont pas suivre les liens présents sur la page
   
  Il existe d'autres directives possibles dans cette balise : [Meta robots, maitrisez votre indexation avec cette balise (seo.fr)](https://www.seo.fr/definition/meta-robots)
 ### <a name="canonicalTag">La balise canonical</a>
