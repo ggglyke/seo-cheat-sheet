@@ -2,7 +2,7 @@
 SEO recommandations for devs
 
 ### Sommaire
-- [Balises html importantes](#tags)
+- [Balises html importantes pour le SEO](#tags)
   - [La balise title](#titleTag)
   - [La balise meta description](#descriptionTag)
   - [La balise de titre H1](#h1Tag)  
@@ -25,9 +25,9 @@ SEO recommandations for devs
 - [Performances (à faire)](#performance)
 - [Gestion des langues (à faire)](#international)  
 
-## <a name="tags">Balises html importantes</a>
-### <a name="titleTag">La balise ```<title>```
-Peut-être la balise la plus importante de toutes. Son contenu apparait dans le titre de l'onglet du navigateur et dans le texte en bleu dans les résultats de recherche Google. 
+## <a name="tags">Balises html importantes pour le SEO</a>
+### <a name="titleTag">La balise `<title>`
+Peut-être la balise la plus importante de toutes. Son contenu apparait dans le titre de l'onglet du navigateur et dans le texte en bleu dans les résultats de recherche Google. Le contenu de la balise `<title>` n'est pas visible dans le contenu de la page, c'est une balise 'meta'. Voir la [balise h1](#h1tag) pour le titre principal
 
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true" alt="SERP Snippet" width="750"/>
 
@@ -65,7 +65,8 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   > - chaque page doit avoir un balise ```<meta name="description" content="">``` unique
   > - contenu non pris en compte pour le ranking
   > - un description bien écrite influence le taux de clic
-  ### <a name="h1tag">La balise h1</a>
+  ### <a name="h1tag">La balise `<h1></h1>`</a>
+  Elle correspond au titre éditorial de la page. Visible dans le contenu, ce titre est le titre principal de la page. Il doit décrire le mieux possible le contenu de la page en utilisant les mots-clés appropriés
   ### <a name="robotsTag">La balise meta robots</a>
   Elle indique pour une page donnée si celle-ci doit être indexée par les moteurs de recherche (= enregistrée ou non dans leur base de données) et si les moteurs de recherche doivent suivre les liens présents sur la page ou non
   
