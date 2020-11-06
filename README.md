@@ -141,7 +141,7 @@ Lorsque le site comporte un très grand nombre de pages ou lorsqu'il en compte p
 </sitemapindex>
 ```
 #### Les images dans le sitemap
-Pour faciliter l'exploration des images, on peut aussi les inclure dans le sitemap. C'est une action recommandée lorsque l'enjeu SEO est important autour des images pour le site. La syntaxe est simple, comme pour le fichier `sitemap.xml` classique, chaque URL est associée aux images intégrées sur celle-ci :
+Pour faciliter l'exploration des images, on peut aussi les inclure dans le sitemap. C'est une action recommandée lorsque l'enjeu SEO est important autour des images pour le site. La syntaxe est simple, comme pour le fichier `sitemap.xml` classique, chaque URL (`<loc>`) est associée aux images intégrées sur celle-ci (`<image:image>`) :
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
