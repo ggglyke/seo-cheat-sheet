@@ -110,7 +110,7 @@ Exemple : sur un site immobilier, les annonces ne sont accessibles qu'après une
 
 Solutions :
 - **Utiliser le maillage interne pour rendre les contenus accessibles via des liens hypertextes** (ex : un lien vers la page "achat appartement Nantes" existe)
-- Ne pas utiliser les éléments de formulaire à la place des liens (un <button> n'a pas du tout le même rôle qu'un <a>)
+- Ne pas utiliser les éléments de formulaire à la place des liens (un `<button>` n'a pas du tout le même rôle qu'un `<a>`)
 - Intégrer les contenus derrière les formulaires au sitemap xml pour offrir un second chemin de navugation en plus du maillage interne
 ## <a name="structure">Structure et navigation</a>
 - Ne pas utiliser des éléments de formulaires pour charger la pagination (un <button> "Plus de résultats" ne sera jamais déclenché, les items resteront inaccessibles)
