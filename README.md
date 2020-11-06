@@ -103,6 +103,11 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 ## <a name="robotsSitemap">Robots.txt et sitemap.xml</a>
 ### <a name="robotsFile">Le fichier robots.txt</a>
 ### <a name="sitemapFile">Le fichier sitemap.xml</a>
+Le fichier sitemap.xml sert à indiquer aux moteurs de recherche les URLs de l'ensemble des pages importantes du site. Il doit idéalement être accessible à la racine du site à cette adresse : `https://www.example.com/sitemap.xml`. Si ça n'est pas le cas, une redirection `301 redirect permanent` sera à mettre en place pour rediriger vers cette url.
+#### Syntaxe du fichier sitemap.xml
+#### Index de sitemaps
+#### Les images dans le sitemap
+#### Les pages à y inclure, celles à exclure
 ## <a name="forms">Les formulaires et le web invisible</a>
 Le "web invisible" désigne en fait l'ensemble des contenus non accessibles aux moteurs de recherche. Il peut s'agir de contenus volontairement masqués aux robots car payants (abonnement), restreints (mot de passe), ou non accessibles grâces à différentes directives (robots.txt, meta robots etc.).
 
