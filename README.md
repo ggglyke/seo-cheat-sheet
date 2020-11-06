@@ -8,8 +8,8 @@ SEO recommandations for devs
   - [La balise de titre H1](#h1Tag)  
   - [La balise meta robots](#robotsTag)
   - [La balise canonical](#canonicalTag)
-- [Le problème des formulaires et contenus cachés (à faire)](#forms)
-- [Problèmes fréquents avec les framework JavaScript modernes](#jsframework)
+- [Les formulaires le web invisible (à faire)](#forms)
+- [Les framework JavaScript modernes](#jsframework)
 - [Robots.txt et sitemap.xml (à faire)](#robotsSitemap)
   - [Le fichier robots.txt (à faire)](#robotsFile)
   - [Le fichier sitemap.xml (à faire)](#sitemapFile)
@@ -88,7 +88,7 @@ Utiliser la balise canonical est un moyen d'indiquer à Google la copie original
 - Par défaut, chaque page devra avoir une balise canonical pointant vers elle-même (self-canonical)
 - Si la page B est une copie de la page A alors, la page B devra avoir une balise canonical pointant vers la page A
 > Ne pas utiliser de balise canonical sur la pagination (erreur fréquente)
-## <a name="jsframework">Problèmes fréquents avec les framework JavaScript modernes</a>
+## <a name="jsframework">Les framework JavaScript modernes</a>
 De nombreux sites utilisent aujourd'hui toutes les possibilités et les avantages que les frameworks JavaScript modernes comme React, Angular ou Vue proposent. Cependant, construire des sites web avec ces frameworks pose un **problème majeur pour le SEO : les moteurs de recherchent ne "voient" pas la structure html "normale"** nécessaire pour la bonne compréhension de son contenu. La plupart du temps, **uniquement une `<div>` vide est rendue** et présente dans le code source initial. Le framework se chargera d'appeler le reste du contenu et de construire le DOM qui ne sera pas vu par les moteurs de recherche.
 > Aujourd'hui, les moteurs de recherche interprètent de mieux en mieux le JavaScript et les différents frameworks. Cependant, il faut partir du principe que les moteurs de recherche allouent un temps donné à l'exploration d'un site. Au-delà de ce temps, il quitte le site même s'il n'en a pas exploré tous les contenus. L'interprétation d'une page générée via JavaScript sera beaucoup plus gourmande en ressources que la lecture d'un simple code source en html.
 
@@ -97,7 +97,18 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 - le pre(rendering peut être une alternative si le SSR est trop complexe à mettre en place
 - Limiter la taille des bundles JavaScript. Les bundles de petite taille améliorent la vitesse de chargement, l'usage de mémoire et du processeur.
 - Explorer les Chrome DevTools’ Timeline & JavaScript Profiler pour analyser l'impact du JavaScript.
-## <a name="forms">Le problème des formulaires</a>
+## <a name="forms">Les formulaires et le web invisible</a>
+Le "web invisible" désigne en fait l'ensemble des contenus non accessibles aux moteurs de recherche. Il peut s'agir de contenus volontairement masqués aux robots car payants (abonnement), restreints (mot de passe), ou non accessibles grâces à différentes directives (robots.txt, sitemap.xml).
+
+La plupart des contenu non accessibles ne le sont pas volontairement. Les robots d'exploration n'ont tout simplement pas les moyens de les crawler car ils sont accessibles derrière un formulaire.
+
+Un robot d'exploration ne rempli ni ne valide les formulaire sur le web. Google ne précise pas la taille de l'appartement qu'il veut acheter comme nous le précise [Oseox](https://oseox.fr/referencement/formulaire-referencement.html).
+
+En définitive, les contenus qui sont accessibles uniquement après validation d'un formulaire sont parfaitement invisibles. L'exploration de ces contenus n'aura jamais lieu et le site ne se positionnera jamais grâce à ces contenus.
+
+Exemple : sur un site immobilier, les annonces ne sont accessibles qu'après une recherche avec le module de recherche du site. Google ne verra jamais les annonces.
+
+La solution ? **Utiliser le maillage interne pour rendre les contenus accessibles via des liens hypertextes** (ex : un lien vers la page "achat appartement Nantes" existe)
 ## <a name="structure">Structure et navigation</a>
 ### <a name="html">Structure HTML sémantique</a>
 Aujourd'hui, une structure HTML **sémantique** est un must pour chaque page web. La sémantique aide les moteurs de recherche à évaluer le contenu et à le proposer de la bonne manière aux utilisateurs. Il faut voir la structure sémantique comme la colonne vertébrale du site autour de laquelle s'articule tout le SEO.
@@ -154,3 +165,8 @@ Dans quels cas utiliser les redirections ?
 
 Les redirections sont utiles pour les moteurs de recherche qui ont les URLs en mémoire, comme pour les liens externes pointant vers votre site ou les internautes qui tentent d'accéder directement à un contenu. Ceux-ci vont alors solliciter une URL qui n'existe plus, ils vont donc devoir passer par la redirection pour arrivé au contenu demandé.
 Au sein du site, aucun lien ne devrait pointer vers une page en redirection (temporaire ou permanente). Les URLs courantes sont connues et stables donc le maillage interne doit pointer uniquement vers des pages en statut http `200 OK`
+
+
+Sources : 
+https://oseox.fr/referencement/formulaire-referencement.html
+
