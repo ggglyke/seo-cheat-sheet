@@ -65,7 +65,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   > - chaque page doit avoir un balise ```<meta name="description" content="">``` unique
   > - contenu non pris en compte pour le ranking
   > - un description bien écrite influence le taux de clic
-  
+  ### <a name="h1tag">La balise h1</a>
   ### <a name="robotsTag">La balise meta robots</a>
   Elle indique pour une page donnée si celle-ci doit être indexée par les moteurs de recherche (= enregistrée ou non dans leur base de données) et si les moteurs de recherche doivent suivre les liens présents sur la page ou non
   
@@ -142,6 +142,8 @@ Disallow: /*.gz$
 
 # On désindexe la page de connexion (contenu inutile)
 Disallow: /wp-login.php
+
+Sitemap: https://www.example.com/sitemap.xml
 ```
 Le fichier robots.txt propose de nombreuses options et subtilités que nous n'allons pas détailler ici. Pour plus d'infos, rendez-vous sur cet article : https://smartkeyword.io/seo-technique-seo-robots-txt/
 
