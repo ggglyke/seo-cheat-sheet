@@ -291,6 +291,7 @@ Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci p
 
 **Recommandé : pagination numéraire** et non un système 'précédent - suivant' (contenus profonds inaccessibles) ni un système de lazy-loading (JS très mal interprété par les moteurs). Sur une page n, on présentera les liens vers les pages (quand elles existent) n-30, n-20, n-10, n-3,n-2, n-1, n+1,n+2,n+3,n+10, n+20,n+30
 
+
 - Un exemple de pagination non optimisée : les contenus profonds sont inaccessibles à cause du bouton en JS:
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination-gdc.jpg?raw=true" alt="pagination" width="500"/>
 - Un exemple de pagination correcte : liens hypertextes et contenus profonds accessibles aisément :
@@ -309,7 +310,7 @@ Une URL de pagination optimisée :
 
 #### Les erreurs à éviter avec la pagination :
 - charger les éléments "suivants" via Javascript (lazy-loading, `<button>` etc.)
-- ne pas faire attention à la profondeur des contenus
+- ne pas faire attention à la profondeur des contenus (absence de liens n+10, n+20 etc. ou navigation "précedent - suivant")
 - placer une balise `<link rel="canonical" href="" />` vers la première page de la série
 - placer une balise `<meta name="robots" content="nofollow" />` sur les pages au-delà de la 1ère
 ## <a name="redirects">Redirections</a>
