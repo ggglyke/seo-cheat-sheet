@@ -288,7 +288,9 @@ URL optimisée :
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
 ### <a name="pagination">Pagination</a>
 Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci permettra aux robots et aux internautes d'accéder aux contenus les plus profonds en un **minimum de clics**.
-Il est recommandé d'utiliser une pagination numéraire et non un système 'précédent - suivant' (contenus profonds inaccessibles) ni un système de lazy-loading (JS très mal interprété par les moteurs)
+
+**Recommandé : pagination numéraire** et non un système 'précédent - suivant' (contenus profonds inaccessibles) ni un système de lazy-loading (JS très mal interprété par les moteurs)
+
 
 #### URLs de pagination
 Les URLs des pages de listing doivent être 'propres' et facilement compréhensibles. On utilisera donc la **réécriture d'URL** pour masquer les paramètres s'ils sont utilisés à la base.
