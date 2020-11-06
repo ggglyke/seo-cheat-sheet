@@ -21,7 +21,7 @@ SEO recommandations for devs
   - [Pagination (à faire)](#pagination)  
 - [Redirections](#redirects) 
 - [Maillage interne (à faire)](#internalLinking)
-- [Images (à faire)](#images)
+- [Images](#images)
 - [Performances (à faire)](#performance)
 - [Gestion des langues (à faire)](#international)  
 
@@ -100,6 +100,9 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 - Limiter la taille des bundles JavaScript. Les bundles de petite taille améliorent la vitesse de chargement, l'usage de mémoire et du processeur.
 - Explorer les Chrome DevTools’ Timeline & JavaScript Profiler pour analyser l'impact du JavaScript.
 ## <a name="duplicate">La duplication de contenu</a>
+## <a name="robotsSitemap">Robots.txt et sitemap.xml</a>
+### <a name="robotsFile">Le fichier robots.txt</a>
+### <a name="sitemapFile">Le fichier sitemap.xml</a>
 ## <a name="forms">Les formulaires et le web invisible</a>
 Le "web invisible" désigne en fait l'ensemble des contenus non accessibles aux moteurs de recherche. Il peut s'agir de contenus volontairement masqués aux robots car payants (abonnement), restreints (mot de passe), ou non accessibles grâces à différentes directives (robots.txt, meta robots etc.).
 
