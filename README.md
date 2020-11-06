@@ -175,17 +175,17 @@ Les redirections sont utiles pour les moteurs de recherche qui ont les URLs en m
 Au sein du site, aucun lien ne devrait pointer vers une page en redirection (temporaire ou permanente). Les URLs courantes sont connues et stables donc le maillage interne doit pointer uniquement vers des pages en statut http `200 OK`
 ## <a name="internalLinking">Maillage interne</a>
 ## <a name="images">Images</a>
-Les images peuvent avoir plus ou moins d'importance pour le SEO. Pour un photographe, un site immobilier ou un site comme Pinterest, les images sont un enjeu stratégique. Elle ne sont donc pas à négliger lors du développement web.
+Les images peuvent avoir plus ou moins d'importance pour le SEO. Pour un photographe, un site immobilier ou un site comme Pinterest, les images représentent un enjeu stratégique. Elle ne sont donc pas à négliger lors du développement web.
 
 Comment optimiser ses images pour le SEO :
-- [performance] images à la bonne taille : charger autant que possible les images à leur taille d'affichage en px (et non en taille XL redimensionnée en css)
-- [performance] optimiser ses images : réduire le poids en `ko` en préservant le même niveau de qualité
-- [performance] utiliser plusieurs versions de la même image pour son affichage responsive (attribut `srcset` à utiliser)
-- [performance] utiliser des formats d'image nouvelle génération (JPEG 2000, JPEG XR et WebP)
-- [performance] si l'enjeu est grand, utiliser un CDN pour les images (attention à bien le configurer pour que celles-ci soient indexables)
-- [accessibilité] utiliser un attribut `alt=""` sur chaque image importante et décrire son contenu comme vous le feriez à une personne malvoyante.
+- [performance] images **à la bonne taille** : charger autant que possible les images à leur taille d'affichage en px (et non en taille XL redimensionnée en css)
+- [performance] **optimiser ses images** : réduire le poids en `ko` en préservant le même niveau de qualité
+- [performance] versions multiples de la même image pour son affichage responsive (grâce à l'attribut **`srcset`**)
+- [performance] formats d'image nouvelle génération (JPEG 2000, JPEG XR et WebP)
+- [performance] si l'enjeu est grand, utiliser un **CDN** pour les images (attention à bien le configurer pour que celles-ci soient indexables)
+- [accessibilité] **attribut `alt=""`** sur chaque image importante et décrire son contenu comme vous le feriez à une personne malvoyante.
 - [accessibilité] utiliser un nom de fichier compréhensible, qui permette d'identifier le contenu de l'image
-- [contenu] le contexte autour de l'image est important. Placer les images dans un contexte qui permette aux moteurs de recherche de comprendre l'image (paragraphe, légende, commentaires...)
+- [contenu] le **contexte** autour de l'image est important. Placer les images dans un contexte qui permette aux moteurs de recherche de comprendre l'image (paragraphe, légende, commentaires...)
 ## <a name="performance">Performances</a>
 ## <a name="international">Gestion des langues</a>
 ---
