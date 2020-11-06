@@ -102,6 +102,51 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 ## <a name="duplicate">La duplication de contenu</a>
 ## <a name="robotsSitemap">Robots.txt et sitemap.xml</a>
 ### <a name="robotsFile">Le fichier robots.txt</a>
+Le fichier robots.txt est en théorie le premier fichier consulté par les moteurs de recherche dont Google avant de crawler le contenu d'un site.
+Ce fichier va permettre de donner des instructions de crawl aux robots. Il doit être situé à la racine du site : `https://www.example.com/robots.txt`
+
+La première ligne concerne souvent l'identification des robots concernés par les règles qui vont suivre (user-agent). En effet, il est possible de donner des instructions différentes en fonction du crawler qui passe sur le site :
+`user-agent: *` : les règles s'appliqueront à tous les robots
+`user-agent: Googlebot` : les règles ne s'appliqueront qu'à Googlebot
+
+Les directives `Allow` et `Disallow` :
+- `Allow: /` : autorise l'accès à tout le site
+- `Disallow: /` : interdit l'accès à tout le site
+- `Allow: /directory` : autorise l'accès à tout le répertoire 'directory'
+- `Disallow: /directory` : interdit l'accès au répertoire 'directory'
+
+Les règles se cumulent, c'est à dire qu'on peut interdire l'accès à tout un site sauf un répertoire précis :
+```txt
+User-agent: *
+Disallow: /
+Allow: /directory
+```
+
+**❗ IMPORTANT : On indique l'adresse du fichier sitemap.xml de cette manière à la fin du fichier robots.txt :**
+
+`Sitemap: https://www.example.com/sitemap.xml`
+
+Exemple de fichier robots.txt par défaut sur Wordpress :
+```text
+User-agent: *
+
+# On empêche l'indexation des dossiers sensibles
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /trackback
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz$
+
+# On désindexe la page de connexion (contenu inutile)
+Disallow: /wp-login.php
+```
+Le fichier robots.txt propose de nombreuses options et subtilités que nous n'allons pas détailler ici. Pour plus d'infos, rendez-vous sur cet article : https://smartkeyword.io/seo-technique-seo-robots-txt/
+
+L'expert SEO fera des recommandations sur la manière de remplir correctement ce fichier.
+
 ### <a name="sitemapFile">Le fichier sitemap.xml</a>
 Le fichier sitemap.xml sert à indiquer aux moteurs de recherche les URLs de l'ensemble des pages que l'on souhaite voir indexées. Il doit idéalement être accessible à la racine du site à cette adresse : `https://www.example.com/sitemap.xml`. Si ça n'est pas le cas, une redirection `301 redirect permanent` sera à mettre en place pour rediriger vers cette url.
 
@@ -259,3 +304,5 @@ Sources :
 - https://oseox.fr/referencement/formulaire-referencement.html
 - https://d2v4zi8pl64nxt.cloudfront.net/seo-cheat-sheet.pdf
 - https://9elements.com/seo-cheat-sheet/
+- https://wpmarmite.com/robots-txt-wordpress/
+- https://smartkeyword.io/seo-technique-seo-robots-txt/
