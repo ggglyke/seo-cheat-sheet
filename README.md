@@ -68,6 +68,10 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   ### <a name="h1tag">La balise `<h1></h1>`</a>
   Elle correspond au titre éditorial de la page. Visible dans le contenu, ce titre est le **titre principal** de la page. Il doit décrire le mieux possible le contenu de la page en utilisant les **mots-clés appropriés**.
   
+```xml
+<h1>Location du bureaux à Nantes (44000) - 216 annonces</h1>
+```
+  
   La balise `<h1></h1>` doit :
   - être présente obligatoirement **une et une seule fois par page**
   - être **unique** (non dupliquée d'une page à l'autre)
