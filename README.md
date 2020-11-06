@@ -289,9 +289,16 @@ URL optimisée :
 ### <a name="pagination">Pagination</a>
 Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci permettra aux robots et aux internautes d'accéder aux contenus les plus profonds en un **minimum de clics**.
 
-**Recommandé : pagination numéraire** et non un système 'précédent - suivant' (contenus profonds inaccessibles) ni un système de lazy-loading (JS très mal interprété par les moteurs)
+**Recommandé : pagination numéraire** et non un système 'précédent - suivant' (contenus profonds inaccessibles) ni un système de lazy-loading (JS très mal interprété par les moteurs). Sur une page n, on présentera les liens vers les pages (quand elles existent) n-30, n-20, n-10, n-3,n-2, n-1, n+1,n+2,n+3,n+10, n+20,n+30
 
+Un exemple de pagination correcte : liens hypertextes et contenus profonds accessibles aisément :
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination.jpg?raw=true" alt="pagination" width="500"/>
+
+Un exemple de pagination non optimisée : les contenus profonds sont inaccessibles :
+<img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination-gdc.jpg?raw=true" alt="pagination" width="500"/>
+
+Un exemple de pagination non optimisée : le bouton en JavaScript ne sera jamais déclenché par les moteurs, les annonces suivantes seront invisibles :
+<img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/pagination-gdc.jpg?raw=true" alt="pagination" width="500"/>
 
 #### URLs de pagination
 Les URLs des pages de listing doivent être 'propres' et facilement compréhensibles. On utilisera donc la **réécriture d'URL** pour masquer les paramètres s'ils sont utilisés à la base.
