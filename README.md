@@ -125,12 +125,18 @@ Il faut être vigilant au contenu publié.
 > Exemple : importer (copier-coller) les articles de medias dans une section "presse" n'aura aucun bienfait pour le SEO
 ## <a name="robotsSitemap">Robots.txt et sitemap.xml</a>
 ### <a name="robotsFile">Le fichier robots.txt</a>
-Le fichier robots.txt est en théorie le premier fichier consulté par les moteurs de recherche dont Google avant de crawler le contenu d'un site.
-Ce fichier va permettre de donner des instructions de crawl aux robots. Il doit être situé à la racine du site : `https://www.example.com/robots.txt`
+➡️ Le fichier robots.txt indique les répertoires et pages autorisés ou non à l'exploration des moteurs de recherche.
 
-La première ligne concerne souvent l'identification des robots concernés par les règles qui vont suivre (user-agent). En effet, il est possible de donner des instructions différentes en fonction du crawler qui passe sur le site :
-`user-agent: *` : les règles s'appliqueront à tous les robots
-`user-agent: Googlebot` : les règles ne s'appliqueront qu'à Googlebot
+- Il est le premier fichier consulté par les crawlers avant d'accéder aux contenu d'un site.
+- Il doit être situé à la racine du site : `https://www.example.com/robots.txt`
+- Il va permettre de donner des **instructions de crawl** aux robots. 
+
+La première ligne concerne l'identification des robots concernés par les règles qui vont suivre. Les crawlers sont identifiés grâce à leur `user-agent`
+
+Il est possible de donner des instructions différentes en fonction du crawler qui passe sur le site :
+
+- `user-agent: *` : les règles s'appliqueront à tous les robots
+- `user-agent: Googlebot` : les règles ne s'appliqueront qu'à Googlebot
 
 Les directives `Allow` et `Disallow` :
 - `Allow: /` : autorise l'accès à tout le site
@@ -173,7 +179,7 @@ Le fichier robots.txt propose de nombreuses options et subtilités que nous n'al
 L'expert SEO fera des recommandations sur la manière de remplir correctement ce fichier.
 
 ### <a name="sitemapFile">Le fichier sitemap.xml</a>
-Le fichier sitemap.xml communique l'ensemble des URLs indexables aux moteurs de recherche. 
+➡️ Le fichier sitemap.xml communique l'ensemble des URLs indexables aux moteurs de recherche. 
 
 Il doit être accessible à la racine du site, idéalement à cette adresse : `https://www.example.com/sitemap.xml`. Si ça n'est pas le cas, une redirection `301 redirect permanent` sera à mettre en place pour rediriger `.sitemap.xml` vers cette url.
 
