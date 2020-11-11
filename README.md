@@ -117,6 +117,12 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 ### Duplication http/https
 ### Duplication à cause du / (slash) de fin
 ### Duplication à cause des paramètres d'URL
+### Duplication externe
+Duplication externe = contenu identique sur plusieurs domaines différents.
+
+Pour être efficace, un contenu doit être unique. Le copier-coller est un no-go absolu en terme de SEO.
+Il faut être vigilant au contenu publié.
+> Exemple : importer (copier-coller) les articles de medias dans une section "presse" n'aura aucun bienfait pour le SEO
 ## <a name="robotsSitemap">Robots.txt et sitemap.xml</a>
 ### <a name="robotsFile">Le fichier robots.txt</a>
 Le fichier robots.txt est en théorie le premier fichier consulté par les moteurs de recherche dont Google avant de crawler le contenu d'un site.
@@ -167,7 +173,9 @@ Le fichier robots.txt propose de nombreuses options et subtilités que nous n'al
 L'expert SEO fera des recommandations sur la manière de remplir correctement ce fichier.
 
 ### <a name="sitemapFile">Le fichier sitemap.xml</a>
-Le fichier sitemap.xml sert à indiquer aux moteurs de recherche les URLs de l'ensemble des pages que l'on souhaite voir indexées. Il doit idéalement être accessible à la racine du site à cette adresse : `https://www.example.com/sitemap.xml`. Si ça n'est pas le cas, une redirection `301 redirect permanent` sera à mettre en place pour rediriger vers cette url.
+Le fichier sitemap.xml communique l'ensemble des URLs indexables aux moteurs de recherche. 
+
+Il doit être accessible à la racine du site, idéalement à cette adresse : `https://www.example.com/sitemap.xml`. Si ça n'est pas le cas, une redirection `301 redirect permanent` sera à mettre en place pour rediriger `.sitemap.xml` vers cette url.
 
 Le fichier sitemap.xml peut ensuite être soumis directement à Google via Google Search Console
 #### Syntaxe du fichier sitemap.xml :
