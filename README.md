@@ -46,7 +46,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   </head>
   ```
   
-  La balise `title` doit :
+  La balise `<title>` doit :
 - contenir entre 50 et 70 caractères
 - être présente sur chaque page
 - être unique (différente sur toutes les pages)
