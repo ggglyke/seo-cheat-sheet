@@ -47,7 +47,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
   ```
   
   La balise `<title>` doit :
-- contenir entre 50 et 70 caractères
+- faire entre 50 et 70 caractères de long
 - être présente sur chaque page
 - être unique (différente sur toutes les pages)
 - contenir les mots-clés importants pour la page (idéalement au début)
@@ -65,10 +65,14 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
 
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/snippet.jpg?raw=true" alt="SERP Snippet" width="750"/>
 
-  > - environ 160 caractères de long
-  > - chaque page doit avoir un balise ```<meta name="description" content="">``` unique
-  > - contenu non pris en compte pour le ranking
-  > - un description bien écrite influence le taux de clic
+La balise `<meta name="description" content ="...">` doit :
+- faire environ 160 caractères de long
+- être présente sur chaque page indexable
+- être unique (différente sur toutes les pages)
+- décrire précisément le contenu de la page et inciter au clic
+
+> Son contenu non pris en compte pour le ranking mais une description bien écrite influence le taux de clic
+
   ### <a name="h1tag">La balise `<h1></h1>`</a>
   Elle correspond au titre éditorial de la page. Visible dans le contenu, ce titre est le **titre principal** de la page. Il doit décrire le mieux possible le contenu de la page en utilisant les **mots-clés appropriés**.
   
@@ -76,7 +80,7 @@ Chaque page du site doit avoir une balise ```<title>``` unique incluant les mots
 <h1>Location du bureaux à Nantes (44000) - 216 annonces</h1>
 ```
   
-  La balise `<h1></h1>` doit :
+  La balise `<h1>` doit :
   - être présente obligatoirement **une et une seule fois par page**
   - être **unique** (non dupliquée d'une page à l'autre)
   - décrire le contenu de la page précisément
