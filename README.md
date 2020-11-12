@@ -71,7 +71,7 @@ La balise `<meta name="description" content ="...">` doit :
 - être unique (différente sur toutes les pages)
 - décrire précisément le contenu de la page et inciter au clic
 
-> Son contenu non pris en compte pour le ranking mais une description bien écrite influence le taux de clic
+> Son contenu n'est pas pris en compte pour le ranking mais une description bien écrite influence le taux de clic
 
   ### <a name="h1tag">La balise `<h1></h1>`</a>
   Elle correspond au titre éditorial de la page. Visible dans le contenu, ce titre est le **titre principal** de la page. Il doit décrire le mieux possible le contenu de la page en utilisant les **mots-clés appropriés**.
