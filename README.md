@@ -132,6 +132,7 @@ Parfois, la page d'accueil d'un site est accessible sur plusieurs URLs, ce qui e
 **À retenir :** S'il existe plusieurs URLs accessibles pour la page d'accueil, il faut en choisir une et rediriger (redirect 301) les autres vers la version choisie.
 ### Duplication http/https
 Depuis quelques temps, la plupart des sites sont passés en https. Pour autant, certains ont encore leur version http accessible avec un contenu identique, ce qui n'est pas un bon signal pour le SEO.
+
 **À retenir :**
 - si le site est en https : s'assurer que les versions http des pages redirigent (`redirect 301`) vers leur version https
 - si le site n'est pas en https : le passer en https puis cf point précédent
@@ -140,6 +141,7 @@ Depuis quelques temps, la plupart des sites sont passés en https. Pour autant, 
 De la même manière que pour le https, une page peut être accessible avec et sans slash de fin (trailing slash) dans son URL. Exemple :
 - `https://example.com`
 - `https://example.com/`
+
 **À retenir :** il faut choisir un modèle d'URL (avec ou sans `/` de fin) et s'assurer que l'autre version redirige (`redirect 301`) vers le version choisie
 ### Duplication à cause des paramètres d'URL
 ### Duplication externe
