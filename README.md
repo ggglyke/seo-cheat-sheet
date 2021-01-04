@@ -123,11 +123,11 @@ Bonnes pratiques à mettre en place lors de l'utilisation d'un framework JavaScr
 ## <a name="duplicate">La duplication de contenu</a>
 ### Duplication de la homepage
 Parfois, la page d'accueil d'un site est accessible sur plusieurs URLs, ce qui entraine de la duplication de contenu :
-- https://www.example.com/
-- https://www.example.com/home/
-- https://www.example.com/fr/
-- https://www.example.com/index.php
-- https://www.example.com/index.html
+- `https://www.example.com/`
+- `https://www.example.com/home/`
+- `https://www.example.com/fr/`
+- `https://www.example.com/index.php`
+- `https://www.example.com/index.html`
 
 **à retenir :** S'il existe plusieurs URLs accessibles pour la page d'accueil, il faut en choisir une et rediriger (redirect 301) les autres vers la version choisie.
 ### Duplication http/https
