@@ -18,6 +18,7 @@ SEO recommandations for devs
   - [HTML sémantique](#html)
   - [Hiérarchie des titres](#headings)  
   - [Structure des URLs](#url)
+  - [Fil d'Ariane (à faire)](#breadcrumbs)
   - [Pagination](#pagination)  
 - [Redirections](#redirects) 
 - [Maillage interne (à faire)](#internalLinking)
@@ -343,6 +344,7 @@ URL non optimisée :
 URL optimisée :
 
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
+### <a name="breadcrumbs">Fil d'Ariane</a>
 ### <a name="pagination">Pagination</a>
 Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci permettra aux robots et aux internautes d'accéder aux contenus les plus profonds en un **minimum de clics**.
 
