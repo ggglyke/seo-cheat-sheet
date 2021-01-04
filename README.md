@@ -10,7 +10,7 @@ SEO recommandations for devs
   - [La balise canonical](#canonicalTag)
 - [Les formulaires et le web invisible](#forms)
 - [Les framework JavaScript modernes](#jsframework)
-- [La duplication de contenu (à faire)](#duplicate)
+- [La duplication de contenu](#duplicate)
 - [Robots.txt et sitemap.xml](#robotsSitemap)
   - [Le fichier robots.txt](#robotsFile)
   - [Le fichier sitemap.xml](#sitemapFile)
@@ -153,8 +153,8 @@ Exemple :
 Ces 2 pages affichent le même contenu. La seconde affiche les produits triès par prix croissant mais le contenu est le même.
 
 **À retenir :**
-Lorsque les paramètres d'URLs génèrent de la duplication de contenu, il faut empêcher l'exploration de la version dupliquée. On peut donc par exemple (au cas par cas)
-- empêcher l'exploration des paramètres dans le fichier robots.txt : Disallow: /*?*order=
+Lorsque les paramètres d'URLs génèrent de la duplication de contenu, il faut empêcher l'exploration de la version dupliquée. On peut donc par exemple (au cas par cas) :
+- empêcher l'exploration des paramètres dans le fichier robots.txt : `Disallow: /*?*order=`
 - utiliser une balise canonical pour indiquer l'URL de référence (ici l'URL sans paramètre)
 ### Duplication externe
 Duplication externe = contenu identique sur plusieurs domaines différents.
