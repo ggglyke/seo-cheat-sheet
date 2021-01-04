@@ -144,6 +144,18 @@ De la même manière que pour le https, une page peut être accessible avec et s
 
 **À retenir :** il faut choisir un modèle d'URL (avec ou sans `/` de fin) et s'assurer que l'autre version redirige (`redirect 301`) vers le version choisie
 ### Duplication à cause des paramètres d'URL
+Les paramètres d'URLs viennent parfois modifier l'apparence de la page sans modifier profondément son contenu (tri, type d'affichage etc.). Une fois encore, ceci peut générer du contenu dupliqué. Il faut donc être vigilent au cas par cas (en fonction du rôle des paramètres).
+
+Exemple :
+- `https://example.com/category/shoes/`
+- `https://example.com/category/shoes/?order=price_asc`
+
+Ces 2 pages affichent le même contenu. La seconde affiche les produits triès par prix croissant mais le contenu est le même.
+
+**À retenir :**
+Lorsque les paramètres d'URLs génèrent de la duplication de contenu, il faut empêcher l'exploration de la version dupliquée. On peut donc par exemple (au cas par cas)
+- empêcher l'exploration des paramètres dans le fichier robots.txt : Disallow: /*?*order=
+- utiliser une balise canonical pour indiquer l'URL de référence (ici l'URL sans paramètre)
 ### Duplication externe
 Duplication externe = contenu identique sur plusieurs domaines différents.
 
