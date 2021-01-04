@@ -129,7 +129,7 @@ Parfois, la page d'accueil d'un site est accessible sur plusieurs URLs, ce qui e
 - `https://www.example.com/index.php`
 - `https://www.example.com/index.html`
 
-**À retenir :** S'il existe plusieurs URLs accessibles pour la page d'accueil, il faut en choisir une et rediriger (redirect 301) les autres vers la version choisie.
+**À retenir :** S'il existe plusieurs URLs accessibles pour la page d'accueil, il faut en choisir une et rediriger (`redirect 301`) les autres vers la version choisie.
 ### Duplication http/https
 Depuis quelques temps, la plupart des sites sont passés en https. Pour autant, certains ont encore leur version http accessible avec un contenu identique, ce qui n'est pas un bon signal pour le SEO.
 
