@@ -346,10 +346,12 @@ URL optimisée :
 ```https://www.myhomepage.com/shop/trainers/adidas/red-trainers-MB-6400TN```
 ### <a name="breadcrumbs">Fil d'Ariane</a>
 Pour les sites qui ont un grand nombre de pages et une architecture profonde (nombreuses catégories, sous-catégories etc.) il est recommandé d'utiliser un fil d'Ariane en haut de page pour faciliter la navigation. C'est une aide pour l'utilisateur mais également pour le SEO. En effet, le fil d'Ariane permet de multiplier les liens internes vers les pages "parents" de la page courante. 
+
 Exemple pour une fiche produit : le fil d'Ariane contient un lien vers les sous-catégories, vers la catégorie et vers l'accueil de la boutique
 
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/fildAriane.jpg?raw=true" alt="fil d'Ariane" width="1000"/>
 
+Le fil d'Ariane en html (visible sur la page) doit être accompagné des microformats correspondants pour faire comprendre aux moteurs de recherche qu'il s'agit bien d'un fil d'Ariane. On privilégiera le format JSON-LD lorsque c'est possible. [Voir les recommandations de Google sur les microformats fil d'Ariane](https://developers.google.com/search/docs/data-types/breadcrumb?hl=fr)
 ### <a name="pagination">Pagination</a>
 Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci permettra aux robots et aux internautes d'accéder aux contenus les plus profonds en un **minimum de clics**.
 
