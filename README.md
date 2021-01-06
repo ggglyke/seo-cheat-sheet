@@ -418,6 +418,7 @@ Comment optimiser ses images pour le SEO :
 - [contenu] le **contexte** autour de l'image est important. Placer les images dans un contexte qui permette aux moteurs de recherche de comprendre l'image (paragraphe, légende, commentaires...)
 ## <a name="performance">Performances</a>
 ## <a name="international">Gestion des langues</a>
+Indiquer les versions localisées : [https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=fr](https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=fr)
 ---
 Sources : 
 - https://oseox.fr/referencement/formulaire-referencement.html
