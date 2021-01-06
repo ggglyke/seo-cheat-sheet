@@ -349,6 +349,7 @@ Pour les sites qui ont un grand nombre de pages et une architecture profonde (no
 Exemple pour une fiche produit : le fil d'Ariane contient un lien vers les sous-catégories, vers la catégorie et vers l'accueil de la boutique
 
 <img src="https://github.com/ggglyke/seo-cheat-sheet/blob/main/fildAriane.jpg?raw=true" alt="fil d'Ariane" width="1000"/>
+
 ### <a name="pagination">Pagination</a>
 Un système de pagination efficace est indispensable pour un bon SEO. Celui-ci permettra aux robots et aux internautes d'accéder aux contenus les plus profonds en un **minimum de clics**.
 
