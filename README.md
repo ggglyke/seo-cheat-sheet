@@ -18,7 +18,7 @@ SEO recommandations for devs
   - [HTML sémantique](#html)
   - [Hiérarchie des titres](#headings)  
   - [Structure des URLs](#url)
-  - [Fil d'Ariane (à faire)](#breadcrumbs)
+  - [Fil d'Ariane](#breadcrumbs)
   - [Pagination](#pagination)  
 - [Redirections](#redirects) 
 - [Maillage interne (à faire)](#internalLinking)
