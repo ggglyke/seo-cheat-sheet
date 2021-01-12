@@ -404,6 +404,15 @@ Dans quels cas utiliser les redirections ?
 Les redirections sont utiles pour les moteurs de recherche qui ont les URLs en mémoire, comme pour les liens externes pointant vers votre site ou les internautes qui tentent d'accéder directement à un contenu. Ceux-ci vont alors solliciter une URL qui n'existe plus, ils vont donc devoir passer par la redirection pour arrivé au contenu demandé.
 Au sein du site, aucun lien ne devrait pointer vers une page en redirection (temporaire ou permanente). Les URLs courantes sont connues et stables donc le maillage interne doit pointer uniquement vers des pages en statut http `200 OK`
 ## <a name="internalLinking">Maillage interne</a>
+Le maillage interne d'un site représente l'ensemble des liens créés au sein du site.
+
+Le maillage est un élément **déterminant** pour un bon SEO car il permet de créer des accès vers les pages les plus importantes.
+
+Les principes à retenir avec le maillage interne :
+- Les contenus importants doivent être accessibles via des liens (ex: les contenus "cachés" derrière les formulaires)
+- Les contenus doivent être accessibles en un minimum de clics
+- L'ancre des liens internes doit être optimisée (pour un lien vers la page des baskets pour homme préférer [Baskets homme](#) à [Cliquez ici](#)
+
 ## <a name="images">Images</a>
 Les images peuvent avoir plus ou moins d'importance pour le SEO. Pour un photographe, un site immobilier ou un site comme Pinterest, les images représentent un enjeu stratégique. Elle ne sont donc pas à négliger lors du développement web.
 
