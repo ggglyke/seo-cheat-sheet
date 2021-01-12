@@ -411,7 +411,7 @@ Le maillage est un élément **déterminant** pour un bon SEO car il permet de c
 Les principes à retenir avec le maillage interne :
 - Les contenus importants doivent être accessibles via des liens (ex: les contenus "cachés" derrière les formulaires)
 - Les contenus doivent être accessibles en un minimum de clics
-- L'ancre des liens internes doit être optimisée (pour un lien vers la page des baskets pour homme préférer "[Baskets homme](#)" à "[Cliquez ici](#)"
+- L'ancre des liens internes doit être optimisée (pour un lien vers la page des baskets pour homme préférez un lien "[Baskets homme](#)" à "[Cliquez ici](#)")
 
 ## <a name="images">Images</a>
 Les images peuvent avoir plus ou moins d'importance pour le SEO. Pour un photographe, un site immobilier ou un site comme Pinterest, les images représentent un enjeu stratégique. Elle ne sont donc pas à négliger lors du développement web.
