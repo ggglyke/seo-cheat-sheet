@@ -427,6 +427,10 @@ Comment optimiser ses images pour le SEO :
 - [contenu] le **contexte** autour de l'image est important. Placer les images dans un contexte qui permette aux moteurs de recherche de comprendre l'image (paragraphe, légende, commentaires...)
 ## <a name="performance">Performances</a>
 ## <a name="international">Gestion des langues</a>
+La gestion des langues est un point important pour le SEO d'un site lorsque celui-ci est multilingue. Plusieurs critères sont à prendre en compte :
+### Sous-domaine ou répertoire
+Les différentes versions de langue doivent être accessibles soit dans un répertoire du site : ```https://www.example.com/fr/```, ```https://www.example.com/uk/``` soit via un sous-domaine du domaine principal : ```https://fr.example.com/```, ```https://uk.example.com/```
+Il est fortement déconseillé d'avoir les versions de langues accessibles via des paramètres d'URL : ```https://www.example.com?lang=uk``` 
 Indiquer les versions localisées : [https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=fr](https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=fr)
 ---
 Sources : 
