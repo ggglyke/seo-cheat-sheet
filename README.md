@@ -428,19 +428,58 @@ Comment optimiser ses images pour le SEO :
 ## <a name="performance">Performances</a>
 ## <a name="international">Gestion des langues</a>
 La gestion des langues est un point important pour le SEO d'un site lorsque celui-ci est multilingue. Plusieurs critères sont à prendre en compte :
-
   
   ### Sous-domaine ou répertoire
   Les différentes versions de langue doivent être accessibles soit dans un répertoire du site : 
-  - ```https://www.example.com/fr/```
-  - ```https://www.example.com/uk/``` 
+  - `https://www.example.com/fr/`
+  - `https://www.example.com/uk/`
   
   soit via un sous-domaine du domaine principal : 
-  - ```https://fr.example.com/```
-  - ```https://uk.example.com/```
+  - `https://fr.example.com/`
+  - `https://uk.example.com/`
 
   Il est **fortement déconseillé** d'avoir les versions de langues accessibles via des paramètres d'URL : ```https://www.example.com?lang=uk``` 
-
+  
+  ### Correspondance entre les différentes versions de pages : balises `hreflang`
+  
+  Pour que les moteurs de recherche puissent identifier les différentes versions internationales d'une page, il est nécessaire d'indiquer l'URL de ces différentes versions soit dans la balise `<head>` de la page, soit via le fichier `sitemap.xml` du site web
+  
+  **Balises `hreflang` dans la balise `<head>` de la page pour une page disponible en 3 langues (us, uk, fr) :**
+  ```
+    <head>
+      ...
+      <link rel="alternate" hreflang="en-GB" href="https://www.example.com/uk/s/category/subcategory" />
+      <link rel="alternate" hreflang="en-US" href="https://www.example.com/us/s/category/subcategory" />
+      <link rel="alternate" hreflang="fr-FR" href="https://www.example.com/fr/s/category/subcategory" />
+      ...
+    </head>
+  ```
+Ces balises sont à intégrer dans toutes les versions de la page. Chaque page doit renvoyer vers toutes les versions de langue de cette même page, y-compris elle-même.
+  
+  **Balises `hreflang` dans le fichier `sitemap.xml` du site :**
+  ```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      <url>
+        <loc>https://www.example.com/fr/s/category/subcategory/</loc>
+        <xhtml:link 
+                   rel="alternate"
+                   hreflang="en-GB"
+                   href="https://www.example.com/uk/s/category/subcategory/"/>
+        <xhtml:link 
+                   rel="alternate"
+                   hreflang="en-US"
+                   href="https://www.example.com/us/s/category/subcategory/"/>
+        <xhtml:link 
+                   rel="alternate"
+                   hreflang="fr-FR"
+                   href="https://www.example.com/fr/s/category/subcategory/"/>
+      </url>
+    </urlset>
+  ```
+  Dans le fichier `sitemap.xml`, on indique l'URL de la page comme habituellement (`<loc></loc>`) puis on indique chaqune des versions alternatives de cette URL via les balises `<xhtml:link rel ="alternate" ... />` y compris sa propre URL (ici l'URL /fr est répétée).
+  
   Indiquer les versions localisées : [https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=fr](https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=fr)
 ---
 Sources : 
