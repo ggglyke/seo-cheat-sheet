@@ -392,7 +392,7 @@ Une URL de pagination optimisée :
 > la page 1 doit toujours avoir la même url : idéalement `/location/nantes/` ou `/location/nantes/page/1` mais jamais les 2 à la fois (prévoir une redirection si c'est le cas)
 
 ## <a name="redirects">Redirections</a>
-Les redirections permanentes `301 Moved Permanently` ou temporaires `302 Found` sont **indispensables en SEO** pour indiquer aux moteurs de recherche les nouvelles URLs des pages qui auraient migrées. En effet, les moteurs de recherchent gardent les URLs en mémoire et leur attribut un certain **'score' SEO**. Si une page change d'URL et que rien n'est fait alors celle-ci perd tout son potentiel SEO. Les redirections ont pour objectif de permettre la **transmission d'une partie de ce potentiel** aux nouvelles pages.
+Les redirections permanentes `301 Moved Permanently` ou temporaires `302 Found` sont **indispensables en SEO** pour indiquer aux moteurs de recherche les nouvelles URLs des pages qui auraient migrées. En effet, les moteurs de recherchent gardent les URLs en mémoire et leur attribuent un certain **'score' SEO**. Si une page change d'URL et que rien n'est fait alors celle-ci perd tout son potentiel SEO. Les redirections ont pour objectif de permettre la **transmission d'une partie de ce potentiel** aux nouvelles pages.
 
 Dans quels cas utiliser les redirections ?
   - lors d'une refonte, lorsque les URLs sont modifiées
