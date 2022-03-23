@@ -401,8 +401,8 @@ Dans quels cas utiliser les redirections ?
   
 **Maillage interne = `200 OK` liens externes = redirections**
 
-Les redirections sont utiles pour les moteurs de recherche qui ont les URLs en mémoire, comme pour les liens externes pointant vers votre site ou les internautes qui tentent d'accéder directement à un contenu. Ceux-ci vont alors solliciter une URL qui n'existe plus, ils vont donc devoir passer par la redirection pour arrivé au contenu demandé.
-Au sein du site, aucun lien ne devrait pointer vers une page en redirection (temporaire ou permanente). Les URLs courantes sont connues et stables donc le maillage interne doit pointer uniquement vers des pages en statut http `200 OK`
+Les redirections sont utiles pour les moteurs de recherche qui conservent les URLs des sites en mémoire. Elles sont également utiles à la gestion les liens externes pointant vers votre site, pour les internautes qui tentent d'accéder directement à un contenu. Ceux-ci vont alors solliciter une URL qui n'existe plus, ils vont donc passer par la redirection pour accéder au contenu demandé.
+Au sein du site, aucun lien ne devrait pointer vers une page en redirection (temporaire ou permanente). Les URLs courantes sont connues et stables et le développeur à la main sur son contenu donc le maillage interne doit pointer uniquement vers des pages en statut http `200 OK`
 ## <a name="internalLinking">Maillage interne</a>
 Le maillage interne d'un site représente l'ensemble des liens créés au sein du site.
 
