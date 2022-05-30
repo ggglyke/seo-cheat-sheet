@@ -24,7 +24,7 @@ SEO recommandations for devs
 - [Maillage interne (à faire)](#internalLinking)
 - [Images](#images)
 - [Performances (à faire)](#performance)
-- [Gestion des langues (à faire)](#international)  
+- [Gestion des langues](#international)  
 
 ## <a name="tags">Balises html importantes pour le SEO</a>
 ### <a name="titleTag">La balise `<title>`
