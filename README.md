@@ -365,6 +365,7 @@ Sur une page n, on présentera les liens hypertextes vers les pages (quand elles
 - les URLs sont réécrites sans paramètre
 - toutes les pages de la série doivent être en `index, follow`
 - toutes les pages de la série ont une balise `canonical` pointant vers elles-mêmes (self referencing canonical)
+- il n'est pas nécessaire d'inclure les pages paginées après la page 1 au fichier sitemap.xml
 - Google a indiqué ne plus prendre en compte les directives `rel="prev"` et `rel="next"`, il n'est donc plus obligatoire de les utiliser
 
 **A éviter** :
