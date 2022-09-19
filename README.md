@@ -362,15 +362,15 @@ Sur une page n, on présentera les liens hypertextes vers les pages (quand elles
 #### Bonnes pratiques sur les pages de listing :
 - les balises `<title>` et `<h1>` des pages de la série mentionnent le numéro de la page courant pour éviter la duplication (sauf page 1)
 - un emplacement est prévu pour un **texte de 500 à 1500 mots sur la 1ère page de la série** uniquement
-- les URLs sont réécrites sans paramètre
+- les URLs sont réécrites idéalement sans paramètre (plutôt /page/3/ au lieu de ?page=3)
 - toutes les pages de la série doivent être en `index, follow`
 - toutes les pages de la série ont une balise `canonical` pointant vers elles-mêmes (self referencing canonical)
 - il n'est pas nécessaire d'inclure les pages paginées après la page 1 au fichier sitemap.xml
 - Google a indiqué ne plus prendre en compte les directives `rel="prev"` et `rel="next"`, il n'est donc plus obligatoire de les utiliser
 
 **A éviter** :
-- les systèmes '< précédent - suivant >' (contenus profonds inaccessibles)
-- lazy-loading (JS très mal interprété par les moteurs)
+- les systèmes '< précédent - suivant >' qui ne permettent de naviguer que d'une page à l'autre sans saut possible (contenus profonds inaccessibles)
+- le lazy-loading (JS très mal interprété par les moteurs)
 - les boutons 'charger la suite' déclenchant un script Javascript
 > On peut proposer ses systèmes **en plus** de la pagination numéraire par liens hypertextes mais il ne doivent en aucun cas être les seuls moyens de naviguer.
 
