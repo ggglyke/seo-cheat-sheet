@@ -259,8 +259,11 @@ Lorsque le site comporte un très grand nombre de pages ou lorsqu'il en compte p
 </sitemapindex>
 ```
 **Génération du fichier sitemap**
+
 Les performances de chargement sont importantes également pour le fichier sitemap.xml. Celui-ci doit se charger rapidement.
-C'est pourquoi il est vivement recommandé de générer un fichier statique à intervales réguliers plutôt que de "générer" le fichier à la volée à chaque appel de l'url `/sitemap.xml`. Par exemple : générer toutres les 2 heures en tâche CRON le fichier sitemap avec les URLs mises à jour.
+C'est pourquoi il est vivement recommandé de générer un fichier statique à intervales réguliers plutôt que de "générer" le fichier à la volée à chaque appel de l'url `/sitemap.xml`. 
+  
+Par exemple : générer toutres les 2 heures en tâche CRON le fichier sitemap avec les URLs mises à jour.
 #### Les images dans le sitemap
 Pour faciliter l'exploration des images, on peut aussi les inclure dans le sitemap. C'est une action recommandée lorsque l'enjeu SEO est important autour des images pour le site. La syntaxe est simple, comme pour le fichier `sitemap.xml` classique, chaque URL (`<loc>`) est associée aux images intégrées sur celle-ci (`<image:image>`) :
 ```xml
